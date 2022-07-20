@@ -310,11 +310,11 @@
     (path "/979ab030-ea70-442d-80da-03811f49b178/2922274b-f2ac-4769-897e-86048bda01c5"
       (reference "J?") (unit 1) (value "SM06B-SRSS-TB(LF)(SN)") (footprint "antmicro-footprints:JST_SM06B-SRSS-TB(LF)(SN)")
     )
+    (path "/979ab030-ea70-442d-80da-03811f49b178/327c3454-fc0d-4d22-88d1-a272f2e3b926"
+      (reference "J?") (unit 1) (value "WE_68715014522_ONE-SIDE") (footprint "antmicro-footprints:WE_68715014522_ONE-SIDE")
+    )
     (path "/979ab030-ea70-442d-80da-03811f49b178/4806d43f-5291-4c6c-852c-a16fa4d4abbe"
       (reference "J?") (unit 1) (value "SM09B-SRSS-TB(LF)(SN)") (footprint "antmicro-footprints:JST_SM09B-SRSS-TB(LF)(SN)")
-    )
-    (path "/979ab030-ea70-442d-80da-03811f49b178/79b07426-6dca-4cc4-b58b-e8046d185b45"
-      (reference "J?") (unit 1) (value "WE_68715014522_ONE-SIDE") (footprint "antmicro-footprints:WE_68715014522_ONE-SIDE")
     )
     (path "/62c966ae-f4cc-414f-ab0e-87e058efb422/b024ee12-452e-4b41-b060-9b2523c62c21"
       (reference "J?") (unit 1) (value "QTH-060-03-L-D-A") (footprint "antmicro-footprints:SAMTEC_QTH-060-03-X-D-A")
@@ -322,8 +322,8 @@
     (path "/979ab030-ea70-442d-80da-03811f49b178/c2b9f967-f899-4c0a-9770-47036aca858d"
       (reference "J?") (unit 1) (value "61300611121") (footprint "antmicro-footprints:61300611121")
     )
-    (path "/979ab030-ea70-442d-80da-03811f49b178/d8a50f0d-46bf-4c70-9343-9ec5b6e444c0"
-      (reference "J?") (unit 1) (value "WE_68715014522_ONE-SIDE") (footprint "antmicro-footprints:WE_68715014522_ONE-SIDE")
+    (path "/979ab030-ea70-442d-80da-03811f49b178/d41d090e-969b-4631-a597-c05c3896be6c"
+      (reference "J?") (unit 1) (value "WE_68715014022") (footprint "antmicro-footprints:WE_68715014022")
     )
     (path "/979ab030-ea70-442d-80da-03811f49b178/671337bd-bc78-4ce6-a9b1-89dae5e5f489"
       (reference "L?") (unit 1) (value "IHLP2525CZER2R2M01") (footprint "antmicro-footprints:IHLP2525CZER")
