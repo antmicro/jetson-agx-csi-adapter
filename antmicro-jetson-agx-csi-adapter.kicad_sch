@@ -5,6 +5,7 @@
   (paper "A3")
 
   (title_block
+    (title "Antmicro Jetson AGX CSI Adapter")
     (date "2022-07-20")
     (rev "1.0.0")
   )
@@ -2104,7 +2105,13 @@
     (path "/62c966ae-f4cc-414f-ab0e-87e058efb422/0f33fb1a-8699-457f-a43d-39f3da564255"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/979ab030-ea70-442d-80da-03811f49b178/11863630-b44b-4338-9bc6-aa72492c71bb"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/979ab030-ea70-442d-80da-03811f49b178/1867d3f7-d6b3-49ee-9356-dde2de938418"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/979ab030-ea70-442d-80da-03811f49b178/1d232c02-d38c-4627-a499-27091666a11e"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/62c966ae-f4cc-414f-ab0e-87e058efb422/22a9214f-f4fd-43be-a811-5a98fd5ec79c"
@@ -2177,6 +2184,9 @@
       (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/979ab030-ea70-442d-80da-03811f49b178/74fc64b3-06e4-4341-b13c-5c18482e4d2b"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/979ab030-ea70-442d-80da-03811f49b178/9305c781-5e20-439a-9f8f-c0f1fad558b1"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/979ab030-ea70-442d-80da-03811f49b178/957db8d9-d72f-41ab-9014-0289cdf92576"
@@ -2287,6 +2297,12 @@
     (path "/62c966ae-f4cc-414f-ab0e-87e058efb422/1b9856e8-2185-4cc1-b84b-e947fadd8589"
       (reference "D?") (unit 1) (value "LTST-C190GKT") (footprint "antmicro-footprints:LED_0603")
     )
+    (path "/979ab030-ea70-442d-80da-03811f49b178/611f77ae-ee8c-40d5-8ef0-80ff1e328d46"
+      (reference "D?") (unit 1) (value "PUSB3F96X_PASS") (footprint "antmicro-footprints:PUSB3F96X")
+    )
+    (path "/979ab030-ea70-442d-80da-03811f49b178/77638668-2257-4b6d-838d-16e976f4f331"
+      (reference "D?") (unit 1) (value "PUSB3F96X_PASS") (footprint "antmicro-footprints:PUSB3F96X")
+    )
     (path "/62c966ae-f4cc-414f-ab0e-87e058efb422/77eed193-2eb1-4f15-956a-ee4c267cb676"
       (reference "D?") (unit 1) (value "LTST-C190GKT") (footprint "antmicro-footprints:LED_0603")
     )
@@ -2295,6 +2311,9 @@
     )
     (path "/62c966ae-f4cc-414f-ab0e-87e058efb422/c1c12f69-c4af-420d-8456-b23acf12c469"
       (reference "D?") (unit 1) (value "LTST-C190GKT") (footprint "antmicro-footprints:LED_0603")
+    )
+    (path "/979ab030-ea70-442d-80da-03811f49b178/dd8bfae5-2d6b-499c-9e30-5b97e97a485e"
+      (reference "D?") (unit 1) (value "PUSB3F96X_PASS") (footprint "antmicro-footprints:PUSB3F96X")
     )
     (path "/62c966ae-f4cc-414f-ab0e-87e058efb422/f3b063d9-d372-4ff8-b46c-39fa68ea5928"
       (reference "D?") (unit 1) (value "LTST-C190GKT") (footprint "antmicro-footprints:LED_0603")

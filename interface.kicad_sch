@@ -5,6 +5,7 @@
   (paper "A3")
 
   (title_block
+    (title "Antmicro Jetson AGX CSI Adapter")
     (date "2022-07-20")
     (rev "1.0.0")
   )
