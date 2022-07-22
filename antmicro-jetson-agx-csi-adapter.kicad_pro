@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -367,7 +367,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.16,
         "via_diameter": 0.6,
-        "via_drill": 0.25,
+        "via_drill": 0.35,
         "wire_width": 6.0
       },
       {
@@ -433,7 +433,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.182,
         "via_diameter": 0.6,
-        "via_drill": 0.25,
+        "via_drill": 0.35,
         "wire_width": 6.0
       }
     ],
