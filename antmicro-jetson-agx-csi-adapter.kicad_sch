@@ -2183,9 +2183,6 @@
     (path "/979ab030-ea70-442d-80da-03811f49b178/018a27f3-6262-4d65-b29b-d9076f0a2e4d"
       (reference "#PWR0131") (unit 1) (value "GND") (footprint "")
     )
-    (path "/979ab030-ea70-442d-80da-03811f49b178/43935399-bd20-4fc9-9aeb-d47371bca7af"
-      (reference "#PWR0132") (unit 1) (value "~") (footprint "")
-    )
     (path "/979ab030-ea70-442d-80da-03811f49b178/018a352f-a708-4e31-88fd-7bb8c83a0a07"
       (reference "#PWR0133") (unit 1) (value "+3V3") (footprint "")
     )
@@ -2249,6 +2246,9 @@
     (path "/979ab030-ea70-442d-80da-03811f49b178/11863630-b44b-4338-9bc6-aa72492c71bb"
       (reference "#PWR0156") (unit 1) (value "GND") (footprint "")
     )
+    (path "/979ab030-ea70-442d-80da-03811f49b178/967d8c41-bbf6-461a-8e25-fa0dd5c88a23"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
     (path "/62c966ae-f4cc-414f-ab0e-87e058efb422/29c8fb6f-fec0-4c7f-b30d-d935d0a08487"
       (reference "C1") (unit 1) (value "C_1u_0603") (footprint "antmicro-footprints:0603-cap")
     )
@@ -2271,7 +2271,7 @@
       (reference "C7") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:0402-cap")
     )
     (path "/979ab030-ea70-442d-80da-03811f49b178/7e2dac5a-ba5c-4de4-87e4-0fde45379d96"
-      (reference "C8") (unit 1) (value "C_220u_KEMET_D") (footprint "antmicro-footprints:KEMET_D")
+      (reference "C8") (unit 1) (value "C_220u_KEMET_D") (footprint "antmicro-footprints:1206-cap")
     )
     (path "/979ab030-ea70-442d-80da-03811f49b178/5ae60561-9b69-445e-95a5-c3ca7a1c0763"
       (reference "C9") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:0603-cap")
@@ -2283,7 +2283,7 @@
       (reference "C11") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:0603-cap")
     )
     (path "/979ab030-ea70-442d-80da-03811f49b178/96855e71-f908-487f-85f2-d15343230f72"
-      (reference "C12") (unit 1) (value "C_220u_KEMET_D") (footprint "antmicro-footprints:KEMET_D")
+      (reference "C12") (unit 1) (value "C_220u_KEMET_D") (footprint "antmicro-footprints:1206-cap")
     )
     (path "/62c966ae-f4cc-414f-ab0e-87e058efb422/1b9856e8-2185-4cc1-b84b-e947fadd8589"
       (reference "D1") (unit 1) (value "LTST-C190GKT") (footprint "antmicro-footprints:LED_0603")
