@@ -388,6 +388,7 @@
           "/Interface/CSI0_D1_N",
           "/Interface/CSI0_D1_P",
           "/Interface/CSI1_CLK_N",
+          "/Interface/CSI1_CLK_P",
           "/Interface/CSI1_D0_N",
           "/Interface/CSI1_D0_P",
           "/Interface/CSI1_D1_N",
