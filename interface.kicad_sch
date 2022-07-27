@@ -11,56 +11,404 @@
   )
 
   (lib_symbols
-    (symbol "Interface-altium-import:GND" (power) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (id 0) (at 0 0 0)
+    (symbol "antmicro-jetson-agx-csi-adapter:+1V8" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+1V8" (id 1) (at 0 3.556 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "GND" (id 1) (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
+      (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:" (id 2) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "" (id 3) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name 'GND'" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_0_0"
+      (symbol "+1V8_0_1"
         (polyline
           (pts
-            (xy -1.27 -2.54)
-            (xy 1.27 -2.54)
+            (xy -0.762 1.27)
+            (xy 0 2.54)
           )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
           (pts
             (xy 0 0)
-            (xy 0 -2.54)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+      )
+      (symbol "+1V8_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+1V8" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "antmicro-jetson-agx-csi-adapter:+3V3" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+3V3" (id 1) (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:" (id 2) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+3V3_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+      )
+      (symbol "+3V3_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+3V3" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "antmicro-jetson-agx-csi-adapter:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+5V" (id 1) (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:" (id 2) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+5V_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+      )
+      (symbol "+5V_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+5V" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "antmicro-jetson-agx-csi-adapter:04671.25NR" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+      (property "Reference" "F" (id 0) (at -1.905 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "04671.25NR" (id 1) (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:0603-Fuse-Littelfuse-0467" (id 2) (at 1.27 -5.715 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_467_datasheet.pdf.pdf" (id 3) (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "MPN" "04671.25NR" (id 4) (at 0.635 -7.62 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Manufacturer" "Littelfuse Inc." (id 5) (at 1.27 -9.525 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "1.25 A 65 V DC Fuse 0603" (id 6) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "04671.25NR_0_1"
+        (polyline
+          (pts
+            (xy 2.54 2.54)
+            (xy 1.27 2.54)
+            (xy -2.54 -2.54)
           )
           (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (pin power_in line (at 0 0 0) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "" (effects (font (size 1.27 1.27))))
+      )
+      (symbol "04671.25NR_1_1"
+        (rectangle (start 2.54 -1.016) (end -2.54 1.016)
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (pin passive line (at -3.81 0 0) (length 1.27)
+          (name "~" (effects (font (size 0 0))))
+          (number "1" (effects (font (size 0 0))))
+        )
+        (pin passive line (at 3.81 0 180) (length 1.27)
+          (name "~" (effects (font (size 0 0))))
+          (number "2" (effects (font (size 0 0))))
         )
       )
     )
-    (symbol "antmicroB2bConnectors:QTH-060-03-L-D-A" (in_bom yes) (on_board yes)
+    (symbol "antmicro-jetson-agx-csi-adapter:C_1u_0603" (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "C" (id 0) (at -1.397 3.429 0)
+        (effects (font (size 1.524 1.524)) (justify left))
+      )
+      (property "Value" "C_1u_0603" (id 1) (at 0 -3.81 0)
+        (effects (font (size 1.524 1.524)) hide)
+      )
+      (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:0603-cap" (id 2) (at 5.08 5.08 0)
+        (effects (font (size 1.524 1.524)) (justify left) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Manufacturer" "WALSIN" (id 4) (at 5.08 10.16 0)
+        (effects (font (size 1.524 1.524)) (justify left) hide)
+      )
+      (property "MPN" "0603YD105KAT2A" (id 5) (at 5.08 7.62 0)
+        (effects (font (size 1.524 1.524)) (justify left) hide)
+      )
+      (property "Val" "1u" (id 6) (at 0 -2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (symbol "C_1u_0603_1_1"
+        (polyline
+          (pts
+            (xy -2.032 -0.762)
+            (xy 2.032 -0.762)
+          )
+          (stroke (width 0.508) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.032 0.762)
+            (xy 2.032 0.762)
+          )
+          (stroke (width 0.508) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (pin passive line (at 0 3.81 270) (length 2.794)
+          (name "~" (effects (font (size 0 0))))
+          (number "1" (effects (font (size 0 0))))
+        )
+        (pin passive line (at 0 -3.81 90) (length 2.794)
+          (name "~" (effects (font (size 0 0))))
+          (number "2" (effects (font (size 0 0))))
+        )
+      )
+    )
+    (symbol "antmicro-jetson-agx-csi-adapter:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (id 0) (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GND" (id 1) (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:" (id 2) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GND_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+      )
+      (symbol "GND_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "antmicro-jetson-agx-csi-adapter:LTST-C190GKT" (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "D" (id 0) (at -6.35 3.81 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "LTST-C190GKT" (id 1) (at 0 -3.81 0)
+        (effects (font (size 1.524 1.524)) hide)
+      )
+      (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:LED_0603" (id 2) (at 5.08 5.08 0)
+        (effects (font (size 1.524 1.524)) (justify left) hide)
+      )
+      (property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C190GKT.pdf" (id 3) (at 5.08 7.62 0)
+        (effects (font (size 1.524 1.524)) (justify left) hide)
+      )
+      (property "MPN" "LTST-C190GKT" (id 4) (at 5.08 12.7 0)
+        (effects (font (size 1.524 1.524)) (justify left) hide)
+      )
+      (property "Manufacturer" "Lite-On Inc." (id 5) (at 5.08 27.94 0)
+        (effects (font (size 1.524 1.524)) (justify left) hide)
+      )
+      (symbol "LTST-C190GKT_0_1"
+        (polyline
+          (pts
+            (xy 0 1.27)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 1.27)
+            (xy -2.54 -1.27)
+            (xy 0 0)
+            (xy -2.54 1.27)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type outline))
+        )
+      )
+      (symbol "LTST-C190GKT_1_1"
+        (polyline
+          (pts
+            (xy -1.27 3.81)
+            (xy -1.905 3.175)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.635 5.08)
+            (xy -1.27 5.08)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 4.445)
+            (xy 0 3.81)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 3.175)
+            (xy 0.635 2.54)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.905 4.445)
+            (xy 1.27 4.445)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 3.81)
+            (xy 2.54 3.175)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 3.175)
+            (xy 2.54 4.445)
+            (xy 1.905 4.445)
+            (xy 2.54 4.445)
+            (xy 2.54 3.81)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 5.08)
+            (xy 0 4.445)
+            (xy 0 5.08)
+            (xy -0.635 5.08)
+            (xy 0 5.08)
+            (xy -1.27 3.81)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (pin input line (at -5.08 0 0) (length 2.54)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin output line (at 2.54 0 180) (length 2.54)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "antmicro-jetson-agx-csi-adapter:QTH-060-03-L-D-A" (in_bom yes) (on_board yes)
       (property "Reference" "J5" (id 0) (at -15.24 53.34 0)
         (effects (font (size 1.27 1.27)) (justify left bottom))
       )
       (property "Value" "QTH-060-03-L-D-A" (id 1) (at -15.24 50.8 0)
         (effects (font (size 1.27 1.27)) (justify left bottom))
       )
-      (property "Footprint" "antmicro-footprints:SAMTEC_QTH-060-03-X-D-A" (id 2) (at 25.4 64.77 0)
+      (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:SAMTEC_QTH-060-03-X-D-A" (id 2) (at 25.4 64.77 0)
         (effects (font (size 1.27 1.27)) (justify left bottom) hide)
       )
       (property "Datasheet" "https://suddendocs.samtec.com/productspecs/qsh-qth.pdf" (id 3) (at 25.4 59.69 0)
@@ -686,63 +1034,151 @@
         )
       )
     )
-    (symbol "antmicroCapacitors0603:C_1u_0603" (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (id 0) (at -1.397 3.429 0)
+    (symbol "antmicro-jetson-agx-csi-adapter:R_0R_0805" (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "R" (id 0) (at -1.397 3.429 0)
         (effects (font (size 1.524 1.524)) (justify left))
       )
-      (property "Value" "C_1u_0603" (id 1) (at 0 -3.81 0)
+      (property "Value" "R_0R_0805" (id 1) (at 0 -3.81 0)
         (effects (font (size 1.524 1.524)) hide)
       )
-      (property "Footprint" "antmicro-footprints:0603-cap" (id 2) (at 5.08 5.08 0)
+      (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:0805-res" (id 2) (at 5.08 5.08 0)
         (effects (font (size 1.524 1.524)) (justify left) hide)
       )
       (property "Datasheet" "" (id 3) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Manufacturer" "WALSIN" (id 4) (at 5.08 10.16 0)
+      (property "Manufacturer" "VISHAY" (id 4) (at 5.08 10.16 0)
         (effects (font (size 1.524 1.524)) (justify left) hide)
       )
-      (property "MPN" "0603YD105KAT2A" (id 5) (at 5.08 7.62 0)
+      (property "MPN" "CRCW08050000Z0EA" (id 5) (at 5.08 7.62 0)
         (effects (font (size 1.524 1.524)) (justify left) hide)
       )
-      (property "Val" "1u" (id 6) (at 0 -2.54 0)
+      (property "Val" "0R" (id 6) (at 0 -2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (symbol "C_1u_0603_1_1"
-        (polyline
-          (pts
-            (xy -2.032 -0.762)
-            (xy 2.032 -0.762)
-          )
-          (stroke (width 0.508) (type default) (color 0 0 0 0))
+      (symbol "R_0R_0805_1_1"
+        (rectangle (start 2.54 -1.016) (end -2.54 1.016)
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (polyline
-          (pts
-            (xy -2.032 0.762)
-            (xy 2.032 0.762)
-          )
-          (stroke (width 0.508) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (pin passive line (at 0 3.81 270) (length 2.794)
+        (pin passive line (at -3.81 0 0) (length 1.27)
           (name "~" (effects (font (size 0 0))))
           (number "1" (effects (font (size 0 0))))
         )
-        (pin passive line (at 0 -3.81 90) (length 2.794)
+        (pin passive line (at 3.81 0 180) (length 1.27)
           (name "~" (effects (font (size 0 0))))
           (number "2" (effects (font (size 0 0))))
         )
       )
     )
-    (symbol "antmicroFCCConnectors:WE_68715014022" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (symbol "antmicro-jetson-agx-csi-adapter:R_200R_0402" (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "R" (id 0) (at -1.397 3.429 0)
+        (effects (font (size 1.524 1.524)) (justify left))
+      )
+      (property "Value" "R_200R_0402" (id 1) (at 0 -3.81 0)
+        (effects (font (size 1.524 1.524)) hide)
+      )
+      (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:0402-res" (id 2) (at 5.08 5.08 0)
+        (effects (font (size 1.524 1.524)) (justify left) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Manufacturer" "YAGEO" (id 4) (at 5.08 10.16 0)
+        (effects (font (size 1.524 1.524)) (justify left) hide)
+      )
+      (property "MPN" "RC0402FR-07200RL" (id 5) (at 5.08 7.62 0)
+        (effects (font (size 1.524 1.524)) (justify left) hide)
+      )
+      (property "Val" "200R" (id 6) (at 0 -2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (symbol "R_200R_0402_1_1"
+        (rectangle (start 2.54 -1.016) (end -2.54 1.016)
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (pin passive line (at -3.81 0 0) (length 1.27)
+          (name "~" (effects (font (size 0 0))))
+          (number "1" (effects (font (size 0 0))))
+        )
+        (pin passive line (at 3.81 0 180) (length 1.27)
+          (name "~" (effects (font (size 0 0))))
+          (number "2" (effects (font (size 0 0))))
+        )
+      )
+    )
+    (symbol "antmicro-jetson-agx-csi-adapter:R_470R_0402" (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "R" (id 0) (at -1.397 3.429 0)
+        (effects (font (size 1.524 1.524)) (justify left))
+      )
+      (property "Value" "R_470R_0402" (id 1) (at 0 -3.81 0)
+        (effects (font (size 1.524 1.524)) hide)
+      )
+      (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:0402-res" (id 2) (at 5.08 5.08 0)
+        (effects (font (size 1.524 1.524)) (justify left) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Manufacturer" "VISHAY" (id 4) (at 5.08 10.16 0)
+        (effects (font (size 1.524 1.524)) (justify left) hide)
+      )
+      (property "MPN" "CRCW0402470RFKED" (id 5) (at 5.08 7.62 0)
+        (effects (font (size 1.524 1.524)) (justify left) hide)
+      )
+      (property "Val" "470R" (id 6) (at 0 -2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (symbol "R_470R_0402_1_1"
+        (rectangle (start 2.54 -1.016) (end -2.54 1.016)
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (pin passive line (at -3.81 0 0) (length 1.27)
+          (name "~" (effects (font (size 0 0))))
+          (number "1" (effects (font (size 0 0))))
+        )
+        (pin passive line (at 3.81 0 180) (length 1.27)
+          (name "~" (effects (font (size 0 0))))
+          (number "2" (effects (font (size 0 0))))
+        )
+      )
+    )
+    (symbol "antmicro-jetson-agx-csi-adapter:TP_SMD_0_75MM" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "TP" (id 0) (at -2.54 1.27 0)
+        (effects (font (size 1.27 1.27)) (justify right))
+      )
+      (property "Value" "TP_SMD_0_75MM" (id 1) (at 0 -2.54 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:Testpoint_smd_0_75mm" (id 2) (at 5.08 5.08 0)
+        (effects (font (size 1.524 1.524)) (justify left) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 5.08 7.62 0)
+        (effects (font (size 1.524 1.524)) (justify left) hide)
+      )
+      (symbol "TP_SMD_0_75MM_0_1"
+        (circle (center 0 0) (radius 0.5588)
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+      )
+      (symbol "TP_SMD_0_75MM_1_1"
+        (pin passive line (at 0 2.54 270) (length 1.905)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "antmicro-jetson-agx-csi-adapter:WE_68715014022" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 43.18 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Value" "WE_68715014022" (id 1) (at -2.54 -87.63 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "antmicro-footprints:WE_68715014022" (id 2) (at -5.08 -90.17 0)
+      (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:WE_68715014022" (id 2) (at -5.08 -90.17 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "" (id 3) (at 0 -92.71 0)
@@ -1161,14 +1597,14 @@
         )
       )
     )
-    (symbol "antmicroFCCConnectors:WE_68715014522_ONE-SIDE" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (symbol "antmicro-jetson-agx-csi-adapter:WE_68715014522_ONE-SIDE" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 43.18 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Value" "WE_68715014522_ONE-SIDE" (id 1) (at -2.54 -87.63 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "antmicro-footprints:WE_68715014522_ONE-SIDE" (id 2) (at -5.08 -90.17 0)
+      (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:WE_68715014522_ONE-SIDE" (id 2) (at -5.08 -90.17 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "" (id 3) (at 0 -92.71 0)
@@ -1584,484 +2020,6 @@
         (pin passive line (at -5.08 20.32 0) (length 3.81)
           (name "Pin_9" (effects (font (size 1.27 1.27))))
           (number "9" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "antmicroFuses:04671.25NR" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "F" (id 0) (at -1.905 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "04671.25NR" (id 1) (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "antmicro-footprints:0603-Fuse-Littelfuse-0467" (id 2) (at 1.27 -5.715 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_467_datasheet.pdf.pdf" (id 3) (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "MPN" "04671.25NR" (id 4) (at 0.635 -7.62 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Manufacturer" "Littelfuse Inc." (id 5) (at 1.27 -9.525 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "1.25 A 65 V DC Fuse 0603" (id 6) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "04671.25NR_0_1"
-        (polyline
-          (pts
-            (xy 2.54 2.54)
-            (xy 1.27 2.54)
-            (xy -2.54 -2.54)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "04671.25NR_1_1"
-        (rectangle (start 2.54 -1.016) (end -2.54 1.016)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (pin passive line (at -3.81 0 0) (length 1.27)
-          (name "~" (effects (font (size 0 0))))
-          (number "1" (effects (font (size 0 0))))
-        )
-        (pin passive line (at 3.81 0 180) (length 1.27)
-          (name "~" (effects (font (size 0 0))))
-          (number "2" (effects (font (size 0 0))))
-        )
-      )
-    )
-    (symbol "antmicroLEDIndicationDiscrete:LTST-C190GKT" (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "D" (id 0) (at -6.35 3.81 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "LTST-C190GKT" (id 1) (at 0 -3.81 0)
-        (effects (font (size 1.524 1.524)) hide)
-      )
-      (property "Footprint" "antmicro-footprints:LED_0603" (id 2) (at 5.08 5.08 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C190GKT.pdf" (id 3) (at 5.08 7.62 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "MPN" "LTST-C190GKT" (id 4) (at 5.08 12.7 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "Manufacturer" "Lite-On Inc." (id 5) (at 5.08 27.94 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (symbol "LTST-C190GKT_0_1"
-        (polyline
-          (pts
-            (xy 0 1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 1.27)
-            (xy -2.54 -1.27)
-            (xy 0 0)
-            (xy -2.54 1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type outline))
-        )
-      )
-      (symbol "LTST-C190GKT_1_1"
-        (polyline
-          (pts
-            (xy -1.27 3.81)
-            (xy -1.905 3.175)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -0.635 5.08)
-            (xy -1.27 5.08)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 4.445)
-            (xy 0 3.81)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 3.175)
-            (xy 0.635 2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.905 4.445)
-            (xy 1.27 4.445)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 3.81)
-            (xy 2.54 3.175)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 3.175)
-            (xy 2.54 4.445)
-            (xy 1.905 4.445)
-            (xy 2.54 4.445)
-            (xy 2.54 3.81)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 5.08)
-            (xy 0 4.445)
-            (xy 0 5.08)
-            (xy -0.635 5.08)
-            (xy 0 5.08)
-            (xy -1.27 3.81)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (pin input line (at -5.08 0 0) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 2.54 0 180) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "antmicroResistors0402:R_200R_0402" (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (id 0) (at -1.397 3.429 0)
-        (effects (font (size 1.524 1.524)) (justify left))
-      )
-      (property "Value" "R_200R_0402" (id 1) (at 0 -3.81 0)
-        (effects (font (size 1.524 1.524)) hide)
-      )
-      (property "Footprint" "antmicro-footprints:0402-res" (id 2) (at 5.08 5.08 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Manufacturer" "YAGEO" (id 4) (at 5.08 10.16 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "MPN" "RC0402FR-07200RL" (id 5) (at 5.08 7.62 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "Val" "200R" (id 6) (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (symbol "R_200R_0402_1_1"
-        (rectangle (start 2.54 -1.016) (end -2.54 1.016)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (pin passive line (at -3.81 0 0) (length 1.27)
-          (name "~" (effects (font (size 0 0))))
-          (number "1" (effects (font (size 0 0))))
-        )
-        (pin passive line (at 3.81 0 180) (length 1.27)
-          (name "~" (effects (font (size 0 0))))
-          (number "2" (effects (font (size 0 0))))
-        )
-      )
-    )
-    (symbol "antmicroResistors0402:R_470R_0402" (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (id 0) (at -1.397 3.429 0)
-        (effects (font (size 1.524 1.524)) (justify left))
-      )
-      (property "Value" "R_470R_0402" (id 1) (at 0 -3.81 0)
-        (effects (font (size 1.524 1.524)) hide)
-      )
-      (property "Footprint" "antmicro-footprints:0402-res" (id 2) (at 5.08 5.08 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Manufacturer" "VISHAY" (id 4) (at 5.08 10.16 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "MPN" "CRCW0402470RFKED" (id 5) (at 5.08 7.62 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "Val" "470R" (id 6) (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (symbol "R_470R_0402_1_1"
-        (rectangle (start 2.54 -1.016) (end -2.54 1.016)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (pin passive line (at -3.81 0 0) (length 1.27)
-          (name "~" (effects (font (size 0 0))))
-          (number "1" (effects (font (size 0 0))))
-        )
-        (pin passive line (at 3.81 0 180) (length 1.27)
-          (name "~" (effects (font (size 0 0))))
-          (number "2" (effects (font (size 0 0))))
-        )
-      )
-    )
-    (symbol "antmicroResistorsmisc:R_0R_0805" (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (id 0) (at -1.397 3.429 0)
-        (effects (font (size 1.524 1.524)) (justify left))
-      )
-      (property "Value" "R_0R_0805" (id 1) (at 0 -3.81 0)
-        (effects (font (size 1.524 1.524)) hide)
-      )
-      (property "Footprint" "antmicro-footprints:0805-res" (id 2) (at 5.08 5.08 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Manufacturer" "VISHAY" (id 4) (at 5.08 10.16 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "MPN" "CRCW08050000Z0EA" (id 5) (at 5.08 7.62 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "Val" "0R" (id 6) (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (symbol "R_0R_0805_1_1"
-        (rectangle (start 2.54 -1.016) (end -2.54 1.016)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (pin passive line (at -3.81 0 0) (length 1.27)
-          (name "~" (effects (font (size 0 0))))
-          (number "1" (effects (font (size 0 0))))
-        )
-        (pin passive line (at 3.81 0 180) (length 1.27)
-          (name "~" (effects (font (size 0 0))))
-          (number "2" (effects (font (size 0 0))))
-        )
-      )
-    )
-    (symbol "antmicroTestPoints:TP_SMD_0_75MM" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "TP" (id 0) (at -2.54 1.27 0)
-        (effects (font (size 1.27 1.27)) (justify right))
-      )
-      (property "Value" "TP_SMD_0_75MM" (id 1) (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Footprint" "antmicro-footprints:Testpoint_smd_0_75mm" (id 2) (at 5.08 5.08 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 5.08 7.62 0)
-        (effects (font (size 1.524 1.524)) (justify left) hide)
-      )
-      (symbol "TP_SMD_0_75MM_0_1"
-        (circle (center 0 0) (radius 0.5588)
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "TP_SMD_0_75MM_1_1"
-        (pin passive line (at 0 2.54 270) (length 1.905)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:+1V8" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+1V8" (id 1) (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+1V8_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "+1V8_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+1V8" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:+3V3" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+3V3" (id 1) (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+3V3_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "+3V3_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+3V3" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+5V" (id 1) (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+5V_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "+5V_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+5V" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (id 0) (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND" (id 1) (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -3578,274 +3536,8 @@
     (uuid ff6a8a58-f0bd-4b09-abb7-0fc24bcbc956)
   )
 
-  (image (at 35.08 276.59) (scale 0.4)
-    (uuid a638a608-de0f-43c8-8381-5263667cce38)
-    (data
-      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
-      AElFTkSuQmCC
-    )
-  )
   (image (at 21.11 260.08) (scale 0.15)
-    (uuid dc81d8ce-54a6-48e3-9e6f-1c4e0b6ce06d)
+    (uuid 0f911867-810b-48e7-94c8-fa8e0fe083f3)
     (data
       iVBORw0KGgoAAAANSUhEUgAABLAAAASwCAIAAABkQySYAAAAA3NCSVQICAjb4U/gAAAACXBIWXMA
       AC4YAAAuGAEqqicgAAAgAElEQVR4nOzdeVxV9dr//41DarotPUmlVIpGiImGYSTHW6WQcIy8M7K4
@@ -5619,6 +5311,272 @@
       bWxs3Lt37169epmamvbv379fv359+/Y1MTHp3bs3VoCa7P8B26Bhky0h/QEAAAAASUVORK5CYII=
     )
   )
+  (image (at 36.35 276.59) (scale 0.4)
+    (uuid b620d933-7f5e-4022-a5b5-c2a81aae9028)
+    (data
+      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
+      AElFTkSuQmCC
+    )
+  )
 
   (text "CSI 1" (at 349.25 105.41 90)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -5663,10 +5621,6 @@
   (text "CSI 7" (at 170.18 148.59 270)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 5ed6167e-5d19-4a86-a4be-a0f1f3bb3c2a)
-  )
-  (text "TODO:FIX FOOTPRINT" (at 102.87 227.33 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 62b0c7ce-0e9c-4def-a2a6-e45cf9b91a0d)
   )
   (text "CSI 0" (at 350.52 123.19 90)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -6266,14 +6220,14 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 340.36 193.04 0) (mirror y) (unit 1)
+  (symbol (lib_id "antmicro-jetson-agx-csi-adapter:GND") (at 340.36 193.04 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 039cc9d1-441f-4d58-9ee7-699463b61c88)
     (property "Reference" "#PWR0115" (id 0) (at 340.36 199.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 340.36 198.12 0))
-    (property "Footprint" "" (id 2) (at 340.36 193.04 0)
+    (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:" (id 2) (at 340.36 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 340.36 193.04 0)
@@ -6282,14 +6236,14 @@
     (pin "1" (uuid 9396691f-54cf-4719-8c41-7fbaed2b999c))
   )
 
-  (symbol (lib_id "power:GND") (at 255.27 193.04 0) (mirror y) (unit 1)
+  (symbol (lib_id "antmicro-jetson-agx-csi-adapter:GND") (at 255.27 193.04 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 096a22ef-900e-4922-b7a6-2ff8d5cdd477)
     (property "Reference" "#PWR0108" (id 0) (at 255.27 199.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 255.27 198.12 0))
-    (property "Footprint" "" (id 2) (at 255.27 193.04 0)
+    (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:" (id 2) (at 255.27 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 255.27 193.04 0)
@@ -6298,14 +6252,14 @@
     (pin "1" (uuid 5e5c576f-3ac1-4fef-9bf1-e1a458e27c48))
   )
 
-  (symbol (lib_id "power:GND") (at 273.05 193.04 0) (mirror y) (unit 1)
+  (symbol (lib_id "antmicro-jetson-agx-csi-adapter:GND") (at 273.05 193.04 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 0f33fb1a-8699-457f-a43d-39f3da564255)
     (property "Reference" "#PWR0106" (id 0) (at 273.05 199.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 273.05 198.12 0))
-    (property "Footprint" "" (id 2) (at 273.05 193.04 0)
+    (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:" (id 2) (at 273.05 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 273.05 193.04 0)
@@ -6314,12 +6268,12 @@
     (pin "1" (uuid 661486b8-4d2e-441f-a738-14ba66639759))
   )
 
-  (symbol (lib_id "antmicroFCCConnectors:WE_68715014522_ONE-SIDE") (at 293.37 91.44 0) (unit 1)
+  (symbol (lib_id "antmicro-jetson-agx-csi-adapter:WE_68715014522_ONE-SIDE") (at 293.37 91.44 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 1189ed1a-e1ad-4002-87da-fed593b5514e)
     (property "Reference" "J2" (id 0) (at 293.37 47.625 0))
     (property "Value" "WE_68715014522_ONE-SIDE" (id 1) (at 296.545 91.44 90))
-    (property "Footprint" "antmicro-footprints:WE_68715014522_ONE-SIDE" (id 2) (at 288.29 181.61 0)
+    (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:WE_68715014522_ONE-SIDE" (id 2) (at 288.29 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 293.37 184.15 0)
@@ -6383,14 +6337,14 @@
     (pin "9" (uuid 3ae96e02-4ff0-4544-93a9-e64f5da49cbd))
   )
 
-  (symbol (lib_id "antmicroLEDIndicationDiscrete:LTST-C190GKT") (at 248.92 189.23 90) (mirror x) (unit 1)
+  (symbol (lib_id "antmicro-jetson-agx-csi-adapter:LTST-C190GKT") (at 248.92 189.23 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 1b9856e8-2185-4cc1-b84b-e947fadd8589)
     (property "Reference" "D1" (id 0) (at 245.11 185.42 0))
     (property "Value" "LTST-C190GKT" (id 1) (at 252.73 189.23 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Footprint" "antmicro-footprints:LED_0603" (id 2) (at 243.84 194.31 0)
+    (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:LED_0603" (id 2) (at 243.84 194.31 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
     (property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C190GKT.pdf" (id 3) (at 241.3 194.31 0)
@@ -6406,23 +6360,23 @@
     (pin "2" (uuid b9072108-35e7-45f3-bded-1c58bba3d156))
   )
 
-  (symbol (lib_id "Interface-altium-import:GND") (at 113.03 227.33 0) (unit 1)
+  (symbol (lib_id "antmicro-jetson-agx-csi-adapter:GND") (at 113.03 227.33 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 22a9214f-f4fd-43be-a811-5a98fd5ec79c)
     (property "Reference" "#PWR0104" (id 0) (at 113.03 227.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 113.03 231.14 0))
-    (property "Footprint" "" (id 2) (at 113.03 227.33 0)
+    (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:" (id 2) (at 113.03 227.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 113.03 227.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 0f118e68-ddb5-45ae-afe5-cfc9419df3d0))
+    (pin "1" (uuid 7f3c7686-d003-4d25-92bd-bc5887adedca))
   )
 
-  (symbol (lib_id "antmicroTestPoints:TP_SMD_0_75MM") (at 163.83 187.96 90) (unit 1)
+  (symbol (lib_id "antmicro-jetson-agx-csi-adapter:TP_SMD_0_75MM") (at 163.83 187.96 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 291da15b-e718-4274-826c-f51525d7c48e)
     (property "Reference" "TP10" (id 0) (at 165.1 187.9599 90)
@@ -6431,7 +6385,7 @@
     (property "Value" "TP_SMD_0_75MM" (id 1) (at 166.37 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "antmicro-footprints:Testpoint_smd_0_75mm" (id 2) (at 158.75 182.88 0)
+    (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:Testpoint_smd_0_75mm" (id 2) (at 158.75 182.88 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
     (property "Datasheet" "" (id 3) (at 156.21 182.88 0)
@@ -6440,7 +6394,7 @@
     (pin "1" (uuid 576e4645-2bb8-45ae-93ee-9cc8b133b881))
   )
 
-  (symbol (lib_id "antmicroCapacitors0603:C_1u_0603") (at 255.27 187.96 0) (mirror y) (unit 1)
+  (symbol (lib_id "antmicro-jetson-agx-csi-adapter:C_1u_0603") (at 255.27 187.96 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 29c8fb6f-fec0-4c7f-b30d-d935d0a08487)
     (property "Reference" "C1" (id 0) (at 259.08 185.42 0)
@@ -6449,7 +6403,7 @@
     (property "Value" "C_1u_0603" (id 1) (at 255.27 191.77 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Footprint" "antmicro-footprints:0603-cap" (id 2) (at 250.19 182.88 0)
+    (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:0603-cap" (id 2) (at 250.19 182.88 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
     (property "Datasheet" "" (id 3) (at 255.27 187.96 0)
@@ -6468,14 +6422,14 @@
     (pin "2" (uuid 36aa692e-4c86-47f5-83b9-a3dcc293b9da))
   )
 
-  (symbol (lib_id "power:GND") (at 266.7 193.04 0) (mirror y) (unit 1)
+  (symbol (lib_id "antmicro-jetson-agx-csi-adapter:GND") (at 266.7 193.04 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3b5fa468-204b-4d04-97e4-df66ce10c371)
     (property "Reference" "#PWR0107" (id 0) (at 266.7 199.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 266.7 198.12 0))
-    (property "Footprint" "" (id 2) (at 266.7 193.04 0)
+    (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:" (id 2) (at 266.7 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 266.7 193.04 0)
@@ -6484,14 +6438,14 @@
     (pin "1" (uuid 340c0cae-ceae-4988-bee6-e85b130d8485))
   )
 
-  (symbol (lib_id "power:+5V") (at 231.14 171.45 0) (mirror y) (unit 1)
+  (symbol (lib_id "antmicro-jetson-agx-csi-adapter:+5V") (at 231.14 171.45 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 4d190e0f-29e1-46cb-8a53-65767bc184f7)
     (property "Reference" "#PWR0119" (id 0) (at 231.14 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (id 1) (at 227.33 170.18 0))
-    (property "Footprint" "" (id 2) (at 231.14 171.45 0)
+    (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:" (id 2) (at 231.14 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 231.14 171.45 0)
@@ -6500,7 +6454,7 @@
     (pin "1" (uuid 4f758225-b888-41dd-afd3-ba645a7c5840))
   )
 
-  (symbol (lib_id "antmicroTestPoints:TP_SMD_0_75MM") (at 163.83 195.58 90) (unit 1)
+  (symbol (lib_id "antmicro-jetson-agx-csi-adapter:TP_SMD_0_75MM") (at 163.83 195.58 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 4deb5ce3-71d2-46dd-bb82-3da3dad13f33)
     (property "Reference" "TP11" (id 0) (at 165.1 195.5799 90)
@@ -6509,7 +6463,7 @@
     (property "Value" "TP_SMD_0_75MM" (id 1) (at 166.37 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "antmicro-footprints:Testpoint_smd_0_75mm" (id 2) (at 158.75 190.5 0)
+    (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:Testpoint_smd_0_75mm" (id 2) (at 158.75 190.5 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
     (property "Datasheet" "" (id 3) (at 156.21 190.5 0)
@@ -6518,30 +6472,30 @@
     (pin "1" (uuid 78078cf3-4c01-4ad8-a725-c497de1f3f14))
   )
 
-  (symbol (lib_id "Interface-altium-import:GND") (at 137.16 220.98 0) (unit 1)
+  (symbol (lib_id "antmicro-jetson-agx-csi-adapter:GND") (at 137.16 220.98 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 4e2a843d-79f5-46e5-add6-8664ef0900fb)
     (property "Reference" "#PWR0103" (id 0) (at 137.16 220.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 137.16 224.79 0))
-    (property "Footprint" "" (id 2) (at 137.16 220.98 0)
+    (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:" (id 2) (at 137.16 220.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 137.16 220.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 36be0f38-8e62-46d3-a7f1-9c0b432c9bca))
+    (pin "1" (uuid abbf3d30-74ba-45f4-8f87-1d1c45d0bf22))
   )
 
-  (symbol (lib_id "power:GND") (at 370.84 180.34 0) (mirror y) (unit 1)
+  (symbol (lib_id "antmicro-jetson-agx-csi-adapter:GND") (at 370.84 180.34 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 5fd138c6-1956-40e0-84f8-a6905134a41f)
     (property "Reference" "#PWR0112" (id 0) (at 370.84 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 370.84 185.42 0))
-    (property "Footprint" "" (id 2) (at 370.84 180.34 0)
+    (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:" (id 2) (at 370.84 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 370.84 180.34 0)
@@ -6550,7 +6504,7 @@
     (pin "1" (uuid 1e7434de-ebd9-4ad9-ba26-d105ff93e7ca))
   )
 
-  (symbol (lib_id "antmicroResistors0402:R_470R_0402") (at 266.7 179.07 90) (mirror x) (unit 1)
+  (symbol (lib_id "antmicro-jetson-agx-csi-adapter:R_470R_0402") (at 266.7 179.07 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6067f628-071c-4739-b2e4-239c2bb09955)
     (property "Reference" "R4" (id 0) (at 262.89 177.8 90)
@@ -6559,7 +6513,7 @@
     (property "Value" "R_470R_0402" (id 1) (at 270.51 179.07 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Footprint" "antmicro-footprints:0402-res" (id 2) (at 261.62 184.15 0)
+    (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:0402-res" (id 2) (at 261.62 184.15 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
     (property "Datasheet" "" (id 3) (at 266.7 179.07 0)
@@ -6576,14 +6530,14 @@
     (pin "2" (uuid 434b5482-2cd7-4295-b988-4a26b5698162))
   )
 
-  (symbol (lib_id "power:GND") (at 248.92 193.04 0) (mirror y) (unit 1)
+  (symbol (lib_id "antmicro-jetson-agx-csi-adapter:GND") (at 248.92 193.04 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 68d16c93-72dc-46e5-b78d-84e3be2108de)
     (property "Reference" "#PWR0109" (id 0) (at 248.92 199.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 248.92 198.12 0))
-    (property "Footprint" "" (id 2) (at 248.92 193.04 0)
+    (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:" (id 2) (at 248.92 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 248.92 193.04 0)
@@ -6592,12 +6546,12 @@
     (pin "1" (uuid d83b8c65-1252-443f-aca5-bd206f3ca9f7))
   )
 
-  (symbol (lib_id "antmicroFuses:04671.25NR") (at 323.85 172.72 0) (mirror y) (unit 1)
+  (symbol (lib_id "antmicro-jetson-agx-csi-adapter:04671.25NR") (at 323.85 172.72 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6b5eba34-d4be-4cd3-a910-e354dab44c0d)
     (property "Reference" "F4" (id 0) (at 322.58 176.53 0))
     (property "Value" "04671.25NR" (id 1) (at 321.31 179.07 0))
-    (property "Footprint" "antmicro-footprints:0603-Fuse-Littelfuse-0467" (id 2) (at 322.58 178.435 0)
+    (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:0603-Fuse-Littelfuse-0467" (id 2) (at 322.58 178.435 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_467_datasheet.pdf.pdf" (id 3) (at 323.85 176.53 0)
@@ -6613,7 +6567,7 @@
     (pin "2" (uuid ee5836a9-d482-43b4-baeb-76525d834303))
   )
 
-  (symbol (lib_id "antmicroTestPoints:TP_SMD_0_75MM") (at 162.56 175.26 90) (unit 1)
+  (symbol (lib_id "antmicro-jetson-agx-csi-adapter:TP_SMD_0_75MM") (at 162.56 175.26 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 754e9f14-f3db-4171-8313-b32e97deb074)
     (property "Reference" "TP9" (id 0) (at 165.1 171.45 0)
@@ -6622,7 +6576,7 @@
     (property "Value" "TP_SMD_0_75MM" (id 1) (at 165.1 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "antmicro-footprints:Testpoint_smd_0_75mm" (id 2) (at 157.48 170.18 0)
+    (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:Testpoint_smd_0_75mm" (id 2) (at 157.48 170.18 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
     (property "Datasheet" "" (id 3) (at 154.94 170.18 0)
@@ -6631,14 +6585,14 @@
     (pin "1" (uuid 5ea64410-c82a-486f-8fe3-e5ec67486261))
   )
 
-  (symbol (lib_id "antmicroLEDIndicationDiscrete:LTST-C190GKT") (at 351.79 189.23 90) (mirror x) (unit 1)
+  (symbol (lib_id "antmicro-jetson-agx-csi-adapter:LTST-C190GKT") (at 351.79 189.23 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 77eed193-2eb1-4f15-956a-ee4c267cb676)
     (property "Reference" "D4" (id 0) (at 347.98 185.42 0))
     (property "Value" "LTST-C190GKT" (id 1) (at 355.6 189.23 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Footprint" "antmicro-footprints:LED_0603" (id 2) (at 346.71 194.31 0)
+    (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:LED_0603" (id 2) (at 346.71 194.31 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
     (property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C190GKT.pdf" (id 3) (at 344.17 194.31 0)
@@ -6654,7 +6608,7 @@
     (pin "2" (uuid dc38e907-57fd-4e1f-9208-d991fcabf64e))
   )
 
-  (symbol (lib_id "antmicroCapacitors0603:C_1u_0603") (at 340.36 187.96 0) (mirror y) (unit 1)
+  (symbol (lib_id "antmicro-jetson-agx-csi-adapter:C_1u_0603") (at 340.36 187.96 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 7aafd04c-ba8b-4f83-806f-13134dd0d59c)
     (property "Reference" "C3" (id 0) (at 344.17 185.42 0)
@@ -6663,7 +6617,7 @@
     (property "Value" "C_1u_0603" (id 1) (at 340.36 191.77 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Footprint" "antmicro-footprints:0603-cap" (id 2) (at 335.28 182.88 0)
+    (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:0603-cap" (id 2) (at 335.28 182.88 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
     (property "Datasheet" "" (id 3) (at 340.36 187.96 0)
@@ -6682,12 +6636,12 @@
     (pin "2" (uuid 67e88bba-2a6d-4ba4-b10d-12e4db62f2be))
   )
 
-  (symbol (lib_id "antmicroFuses:04671.25NR") (at 323.85 167.64 0) (mirror y) (unit 1)
+  (symbol (lib_id "antmicro-jetson-agx-csi-adapter:04671.25NR") (at 323.85 167.64 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 86ce21cf-10a5-41e6-a245-209be02def04)
     (property "Reference" "F3" (id 0) (at 322.58 160.02 0))
     (property "Value" "04671.25NR" (id 1) (at 322.58 162.56 0))
-    (property "Footprint" "antmicro-footprints:0603-Fuse-Littelfuse-0467" (id 2) (at 322.58 173.355 0)
+    (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:0603-Fuse-Littelfuse-0467" (id 2) (at 322.58 173.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_467_datasheet.pdf.pdf" (id 3) (at 323.85 171.45 0)
@@ -6703,14 +6657,14 @@
     (pin "2" (uuid 3e38327d-ca67-43a4-a7e3-6d2a629c2895))
   )
 
-  (symbol (lib_id "power:GND") (at 351.79 193.04 0) (mirror y) (unit 1)
+  (symbol (lib_id "antmicro-jetson-agx-csi-adapter:GND") (at 351.79 193.04 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 983d066b-08d2-4560-8da4-c74a21ef3009)
     (property "Reference" "#PWR0113" (id 0) (at 351.79 199.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 351.79 198.12 0))
-    (property "Footprint" "" (id 2) (at 351.79 193.04 0)
+    (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:" (id 2) (at 351.79 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 351.79 193.04 0)
@@ -6719,14 +6673,14 @@
     (pin "1" (uuid ed769dc8-0d15-48d4-8e57-dd471775a7c8))
   )
 
-  (symbol (lib_id "power:GND") (at 334.01 193.04 0) (mirror y) (unit 1)
+  (symbol (lib_id "antmicro-jetson-agx-csi-adapter:GND") (at 334.01 193.04 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9c627ad7-023c-4c8f-a2b9-264d3e13b343)
     (property "Reference" "#PWR0114" (id 0) (at 334.01 199.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 334.01 198.12 0))
-    (property "Footprint" "" (id 2) (at 334.01 193.04 0)
+    (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:" (id 2) (at 334.01 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 334.01 193.04 0)
@@ -6735,7 +6689,7 @@
     (pin "1" (uuid 98471f36-8d24-4bb9-a98f-67622ff19735))
   )
 
-  (symbol (lib_id "antmicroResistors0402:R_200R_0402") (at 334.01 179.07 90) (mirror x) (unit 1)
+  (symbol (lib_id "antmicro-jetson-agx-csi-adapter:R_200R_0402") (at 334.01 179.07 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a196a5cf-b71b-4bfa-917a-a64b819dbeaa)
     (property "Reference" "R5" (id 0) (at 330.2 177.8 90)
@@ -6744,7 +6698,7 @@
     (property "Value" "R_200R_0402" (id 1) (at 337.82 179.07 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Footprint" "antmicro-footprints:0402-res" (id 2) (at 328.93 184.15 0)
+    (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:0402-res" (id 2) (at 328.93 184.15 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
     (property "Datasheet" "" (id 3) (at 334.01 179.07 0)
@@ -6761,7 +6715,7 @@
     (pin "2" (uuid 2fc832fd-8763-40fe-aa6a-85f82a7cc46a))
   )
 
-  (symbol (lib_id "antmicroTestPoints:TP_SMD_0_75MM") (at 81.28 160.02 180) (unit 1)
+  (symbol (lib_id "antmicro-jetson-agx-csi-adapter:TP_SMD_0_75MM") (at 81.28 160.02 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid abb39cdd-f524-4821-97b1-18c0f41a8a9c)
     (property "Reference" "TP7" (id 0) (at 82.55 160.058 0)
@@ -6770,7 +6724,7 @@
     (property "Value" "TP_SMD_0_75MM" (id 1) (at 81.28 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "antmicro-footprints:Testpoint_smd_0_75mm" (id 2) (at 76.2 165.1 0)
+    (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:Testpoint_smd_0_75mm" (id 2) (at 76.2 165.1 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
     (property "Datasheet" "" (id 3) (at 76.2 167.64 0)
@@ -6779,7 +6733,7 @@
     (pin "1" (uuid 779a86f2-08a2-4bc6-9448-f04dcf46ddd0))
   )
 
-  (symbol (lib_id "antmicroCapacitors0603:C_1u_0603") (at 273.05 187.96 0) (mirror y) (unit 1)
+  (symbol (lib_id "antmicro-jetson-agx-csi-adapter:C_1u_0603") (at 273.05 187.96 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ac78bc87-f091-4ec1-b5b9-abbb31f8b04c)
     (property "Reference" "C2" (id 0) (at 279.4 186.69 0)
@@ -6788,7 +6742,7 @@
     (property "Value" "C_1u_0603" (id 1) (at 273.05 191.77 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Footprint" "antmicro-footprints:0603-cap" (id 2) (at 267.97 182.88 0)
+    (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:0603-cap" (id 2) (at 267.97 182.88 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
     (property "Datasheet" "" (id 3) (at 273.05 187.96 0)
@@ -6807,7 +6761,7 @@
     (pin "2" (uuid e7320b9e-4730-4df2-ab6b-047e9a32903b))
   )
 
-  (symbol (lib_id "antmicroResistors0402:R_470R_0402") (at 351.79 179.07 90) (mirror x) (unit 1)
+  (symbol (lib_id "antmicro-jetson-agx-csi-adapter:R_470R_0402") (at 351.79 179.07 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ae934c8e-48bd-4bfb-a7db-1cd6f79764c8)
     (property "Reference" "R6" (id 0) (at 347.98 177.8 90)
@@ -6816,7 +6770,7 @@
     (property "Value" "R_470R_0402" (id 1) (at 355.6 179.07 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Footprint" "antmicro-footprints:0402-res" (id 2) (at 346.71 184.15 0)
+    (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:0402-res" (id 2) (at 346.71 184.15 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
     (property "Datasheet" "" (id 3) (at 351.79 179.07 0)
@@ -6833,12 +6787,12 @@
     (pin "2" (uuid 98434121-3dd2-496c-9c4c-8ea060f6255f))
   )
 
-  (symbol (lib_id "antmicroB2bConnectors:QTH-060-03-L-D-A") (at 114.3 106.68 0) (unit 1)
+  (symbol (lib_id "antmicro-jetson-agx-csi-adapter:QTH-060-03-L-D-A") (at 114.3 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b024ee12-452e-4b41-b060-9b2523c62c21)
     (property "Reference" "J1" (id 0) (at 114.3 50.8 0))
     (property "Value" "QTH-060-03-L-D-A" (id 1) (at 114.3 53.34 0))
-    (property "Footprint" "antmicro-footprints:SAMTEC_QTH-060-03-X-D-A" (id 2) (at 114.3 106.68 0)
+    (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:SAMTEC_QTH-060-03-X-D-A" (id 2) (at 114.3 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://suddendocs.samtec.com/productspecs/qsh-qth.pdf" (id 3) (at 114.3 106.68 0)
@@ -6980,7 +6934,7 @@
     (pin "G8" (uuid 29654230-6b87-4b4d-beaf-b96434f707ef))
   )
 
-  (symbol (lib_id "antmicroResistorsmisc:R_0R_0805") (at 154.94 187.96 0) (unit 1)
+  (symbol (lib_id "antmicro-jetson-agx-csi-adapter:R_0R_0805") (at 154.94 187.96 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid b80f778a-e9a4-4616-ad17-42205c716e24)
     (property "Reference" "R1" (id 0) (at 154.94 184.15 0)
@@ -6989,7 +6943,7 @@
     (property "Value" "R_0R_0805" (id 1) (at 154.94 191.77 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Footprint" "antmicro-footprints:0805-res" (id 2) (at 160.02 182.88 0)
+    (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:0805-res" (id 2) (at 160.02 182.88 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
     (property "Datasheet" "" (id 3) (at 154.94 187.96 0)
@@ -7006,7 +6960,7 @@
     (pin "2" (uuid 6856738a-0e51-4ad8-a0ef-4cb7c91b5e4f))
   )
 
-  (symbol (lib_id "antmicroResistors0402:R_200R_0402") (at 248.92 179.07 90) (mirror x) (unit 1)
+  (symbol (lib_id "antmicro-jetson-agx-csi-adapter:R_200R_0402") (at 248.92 179.07 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid be7f53a8-6103-4b74-8988-48dc22962b02)
     (property "Reference" "R3" (id 0) (at 245.11 177.8 90)
@@ -7015,7 +6969,7 @@
     (property "Value" "R_200R_0402" (id 1) (at 252.73 179.07 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Footprint" "antmicro-footprints:0402-res" (id 2) (at 243.84 184.15 0)
+    (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:0402-res" (id 2) (at 243.84 184.15 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
     (property "Datasheet" "" (id 3) (at 248.92 179.07 0)
@@ -7032,14 +6986,14 @@
     (pin "2" (uuid 05f2b352-ae79-49c8-a305-d23361f34433))
   )
 
-  (symbol (lib_id "antmicroLEDIndicationDiscrete:LTST-C190GKT") (at 266.7 189.23 90) (mirror x) (unit 1)
+  (symbol (lib_id "antmicro-jetson-agx-csi-adapter:LTST-C190GKT") (at 266.7 189.23 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c1c12f69-c4af-420d-8456-b23acf12c469)
     (property "Reference" "D2" (id 0) (at 262.89 185.42 0))
     (property "Value" "LTST-C190GKT" (id 1) (at 270.51 189.23 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Footprint" "antmicro-footprints:LED_0603" (id 2) (at 261.62 194.31 0)
+    (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:LED_0603" (id 2) (at 261.62 194.31 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
     (property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C190GKT.pdf" (id 3) (at 259.08 194.31 0)
@@ -7055,14 +7009,14 @@
     (pin "2" (uuid a1ea9560-a419-4897-9a72-60eb04c44d14))
   )
 
-  (symbol (lib_id "power:GND") (at 358.14 193.04 0) (mirror y) (unit 1)
+  (symbol (lib_id "antmicro-jetson-agx-csi-adapter:GND") (at 358.14 193.04 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c52d8da0-6c88-412e-84e1-a0da63e5e466)
     (property "Reference" "#PWR0111" (id 0) (at 358.14 199.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 358.14 198.12 0))
-    (property "Footprint" "" (id 2) (at 358.14 193.04 0)
+    (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:" (id 2) (at 358.14 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 358.14 193.04 0)
@@ -7071,14 +7025,14 @@
     (pin "1" (uuid 4bd6980c-812d-49b8-8279-315b619a5448))
   )
 
-  (symbol (lib_id "power:+3V3") (at 160.02 194.31 0) (unit 1)
+  (symbol (lib_id "antmicro-jetson-agx-csi-adapter:+3V3") (at 160.02 194.31 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c8cee497-ad34-46e2-9b1b-7aa77bfb6d85)
     (property "Reference" "#PWR0101" (id 0) (at 160.02 198.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (id 1) (at 160.02 190.5 0))
-    (property "Footprint" "" (id 2) (at 160.02 194.31 0)
+    (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:" (id 2) (at 160.02 194.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 160.02 194.31 0)
@@ -7087,7 +7041,7 @@
     (pin "1" (uuid b5e13688-8353-406b-a451-3d9e88d933f7))
   )
 
-  (symbol (lib_id "antmicroCapacitors0603:C_1u_0603") (at 358.14 187.96 0) (mirror y) (unit 1)
+  (symbol (lib_id "antmicro-jetson-agx-csi-adapter:C_1u_0603") (at 358.14 187.96 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ca1ca1f4-27ba-4e84-8961-6e787a8c0df5)
     (property "Reference" "C4" (id 0) (at 364.49 186.69 0)
@@ -7096,7 +7050,7 @@
     (property "Value" "C_1u_0603" (id 1) (at 358.14 191.77 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Footprint" "antmicro-footprints:0603-cap" (id 2) (at 353.06 182.88 0)
+    (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:0603-cap" (id 2) (at 353.06 182.88 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
     (property "Datasheet" "" (id 3) (at 358.14 187.96 0)
@@ -7115,12 +7069,12 @@
     (pin "2" (uuid fad89011-26d1-4e22-8223-0fb17d7a0a7f))
   )
 
-  (symbol (lib_id "antmicroFuses:04671.25NR") (at 238.76 172.72 0) (mirror y) (unit 1)
+  (symbol (lib_id "antmicro-jetson-agx-csi-adapter:04671.25NR") (at 238.76 172.72 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d3e7e70a-bef9-48c2-9385-0e92c2447956)
     (property "Reference" "F2" (id 0) (at 237.49 176.53 0))
     (property "Value" "04671.25NR" (id 1) (at 236.22 179.07 0))
-    (property "Footprint" "antmicro-footprints:0603-Fuse-Littelfuse-0467" (id 2) (at 237.49 178.435 0)
+    (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:0603-Fuse-Littelfuse-0467" (id 2) (at 237.49 178.435 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_467_datasheet.pdf.pdf" (id 3) (at 238.76 176.53 0)
@@ -7136,12 +7090,12 @@
     (pin "2" (uuid c8371c05-ddfa-435f-bb98-6ae412b3e193))
   )
 
-  (symbol (lib_id "antmicroFuses:04671.25NR") (at 238.76 167.64 0) (mirror y) (unit 1)
+  (symbol (lib_id "antmicro-jetson-agx-csi-adapter:04671.25NR") (at 238.76 167.64 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d5d7234d-7fa4-42ff-bc90-fca036e09b75)
     (property "Reference" "F1" (id 0) (at 237.49 160.02 0))
     (property "Value" "04671.25NR" (id 1) (at 237.49 162.56 0))
-    (property "Footprint" "antmicro-footprints:0603-Fuse-Littelfuse-0467" (id 2) (at 237.49 173.355 0)
+    (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:0603-Fuse-Littelfuse-0467" (id 2) (at 237.49 173.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_467_datasheet.pdf.pdf" (id 3) (at 238.76 171.45 0)
@@ -7157,14 +7111,14 @@
     (pin "2" (uuid 5ff142fc-3e0d-494c-936c-2a5f26123c96))
   )
 
-  (symbol (lib_id "power:+1V8") (at 160.02 186.69 0) (unit 1)
+  (symbol (lib_id "antmicro-jetson-agx-csi-adapter:+1V8") (at 160.02 186.69 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid dec1da35-3c95-485d-8f1d-98aba5504ed1)
     (property "Reference" "#PWR0102" (id 0) (at 160.02 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (id 1) (at 160.02 182.88 0))
-    (property "Footprint" "" (id 2) (at 160.02 186.69 0)
+    (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:" (id 2) (at 160.02 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 160.02 186.69 0)
@@ -7173,14 +7127,14 @@
     (pin "1" (uuid 9a2fb2dd-2c20-4154-bae6-7bc1e75a83a8))
   )
 
-  (symbol (lib_id "power:+3V3") (at 316.23 166.37 0) (mirror y) (unit 1)
+  (symbol (lib_id "antmicro-jetson-agx-csi-adapter:+3V3") (at 316.23 166.37 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid df0e47d2-9a21-4ac5-9933-dd5b095ed24b)
     (property "Reference" "#PWR0116" (id 0) (at 316.23 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (id 1) (at 312.42 163.83 0))
-    (property "Footprint" "" (id 2) (at 316.23 166.37 0)
+    (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:" (id 2) (at 316.23 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 316.23 166.37 0)
@@ -7189,7 +7143,7 @@
     (pin "1" (uuid 854794b2-ca66-4a2f-a233-67ab09242223))
   )
 
-  (symbol (lib_id "antmicroResistorsmisc:R_0R_0805") (at 154.94 195.58 0) (unit 1)
+  (symbol (lib_id "antmicro-jetson-agx-csi-adapter:R_0R_0805") (at 154.94 195.58 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e3668ca9-50dd-4374-93bb-72948baf52aa)
     (property "Reference" "R2" (id 0) (at 154.94 191.77 0)
@@ -7198,7 +7152,7 @@
     (property "Value" "R_0R_0805" (id 1) (at 154.94 199.39 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Footprint" "antmicro-footprints:0805-res" (id 2) (at 160.02 190.5 0)
+    (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:0805-res" (id 2) (at 160.02 190.5 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
     (property "Datasheet" "" (id 3) (at 154.94 195.58 0)
@@ -7215,12 +7169,12 @@
     (pin "2" (uuid 7312d938-1afd-4c25-b970-5b62dd5a2ed5))
   )
 
-  (symbol (lib_id "antmicroFCCConnectors:WE_68715014022") (at 378.46 91.44 0) (unit 1)
+  (symbol (lib_id "antmicro-jetson-agx-csi-adapter:WE_68715014022") (at 378.46 91.44 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e62b4524-417c-4823-94a7-86a8c7cd94f2)
     (property "Reference" "J3" (id 0) (at 378.46 48.26 0))
     (property "Value" "WE_68715014022" (id 1) (at 381 91.44 90))
-    (property "Footprint" "antmicro-footprints:WE_68715014022" (id 2) (at 373.38 181.61 0)
+    (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:WE_68715014022" (id 2) (at 373.38 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 378.46 184.15 0)
@@ -7284,14 +7238,14 @@
     (pin "9" (uuid 6adc46ee-11f2-41ea-99e7-1f13f9060b38))
   )
 
-  (symbol (lib_id "power:+5V") (at 316.23 171.45 0) (mirror y) (unit 1)
+  (symbol (lib_id "antmicro-jetson-agx-csi-adapter:+5V") (at 316.23 171.45 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e7b84d82-7dfc-402d-8430-823550641765)
     (property "Reference" "#PWR0117" (id 0) (at 316.23 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (id 1) (at 312.42 170.18 0))
-    (property "Footprint" "" (id 2) (at 316.23 171.45 0)
+    (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:" (id 2) (at 316.23 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 316.23 171.45 0)
@@ -7300,30 +7254,30 @@
     (pin "1" (uuid 3d9be3ee-39ad-427a-a8a4-6b7cda6097f2))
   )
 
-  (symbol (lib_id "Interface-altium-import:GND") (at 91.44 220.98 0) (unit 1)
+  (symbol (lib_id "antmicro-jetson-agx-csi-adapter:GND") (at 91.44 220.98 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid eb7c3860-97b8-4b1a-a4cf-d3fa5ec991d4)
     (property "Reference" "#PWR0105" (id 0) (at 91.44 220.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 91.44 224.79 0))
-    (property "Footprint" "" (id 2) (at 91.44 220.98 0)
+    (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:" (id 2) (at 91.44 220.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 91.44 220.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid e6e2625d-d9e8-43a9-a227-b7be23cebaba))
+    (pin "1" (uuid 89177cc2-6ba7-4ad4-abdb-8b0df4b070e9))
   )
 
-  (symbol (lib_id "antmicroLEDIndicationDiscrete:LTST-C190GKT") (at 334.01 189.23 90) (mirror x) (unit 1)
+  (symbol (lib_id "antmicro-jetson-agx-csi-adapter:LTST-C190GKT") (at 334.01 189.23 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f3b063d9-d372-4ff8-b46c-39fa68ea5928)
     (property "Reference" "D3" (id 0) (at 330.2 185.42 0))
     (property "Value" "LTST-C190GKT" (id 1) (at 337.82 189.23 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Footprint" "antmicro-footprints:LED_0603" (id 2) (at 328.93 194.31 0)
+    (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:LED_0603" (id 2) (at 328.93 194.31 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
     (property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C190GKT.pdf" (id 3) (at 326.39 194.31 0)
@@ -7339,14 +7293,14 @@
     (pin "2" (uuid b98e8379-5d7a-4ef0-9166-e3943ccbfa2d))
   )
 
-  (symbol (lib_id "power:+3V3") (at 231.14 166.37 0) (mirror y) (unit 1)
+  (symbol (lib_id "antmicro-jetson-agx-csi-adapter:+3V3") (at 231.14 166.37 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid faebd42d-9ef6-4535-8564-4154b58eeae8)
     (property "Reference" "#PWR0118" (id 0) (at 231.14 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (id 1) (at 227.33 163.83 0))
-    (property "Footprint" "" (id 2) (at 231.14 166.37 0)
+    (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:" (id 2) (at 231.14 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 231.14 166.37 0)
@@ -7355,14 +7309,14 @@
     (pin "1" (uuid ea162f5f-5832-4569-ba1b-722c568287f9))
   )
 
-  (symbol (lib_id "power:GND") (at 285.75 180.34 0) (mirror y) (unit 1)
+  (symbol (lib_id "antmicro-jetson-agx-csi-adapter:GND") (at 285.75 180.34 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid fe9853fc-cb46-45b3-8e78-109076e27be6)
     (property "Reference" "#PWR0110" (id 0) (at 285.75 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 285.75 185.42 0))
-    (property "Footprint" "" (id 2) (at 285.75 180.34 0)
+    (property "Footprint" "antmicro-jetson-agx-csi-adapter-footprints:" (id 2) (at 285.75 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 285.75 180.34 0)

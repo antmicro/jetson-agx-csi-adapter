@@ -278,7 +278,7 @@
   (net 176 "/Auxiliary/3V3_AUX_F")
   (net 177 "/Auxiliary/5V_LL")
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp 00fbcb85-9a7c-4416-9e84-b73919d3eee9)
     (at 126.3 82.315 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -314,14 +314,14 @@
       (net 136 "/Auxiliary/CAM_SYNC_3V3") (pintype "passive") (tstamp f5e93c43-5493-406b-b635-2aab8928beaa))
     (pad "2" smd roundrect locked (at 0.485 0 90) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "+3V3") (pintype "passive") (tstamp 8cba1583-8e9c-409b-873c-bca287a768df))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0603-Fuse-Littelfuse-0467" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0603-Fuse-Littelfuse-0467" (layer "F.Cu")
     (tedit 618B9E9E) (tstamp 0484d4e9-4f32-4219-a880-0bf8f270e6a9)
     (at 122.53 69.59)
     (property "MPN" "04671.25NR")
@@ -352,19 +352,19 @@
       (net 176 "/Auxiliary/3V3_AUX_F") (pintype "passive") (tstamp 24bcb128-0408-4bcb-890b-ad091c230c36))
     (pad "2" smd rect locked (at 0.891 0) (size 0.762 1.09) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "+3V3") (pintype "passive") (tstamp f49b6d82-1aaa-43b5-9e13-58f482b63627))
-    (model "${ANT3DMDL}/0603-fuse"
+    (model "${KIPRJMOD}/lib/3d-models/0603-fuse"
       (offset (xyz -2.9 0.65 -0.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${ANT3DMDL}/0603-fuse-1.6x0.8mm.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-fuse-1.6x0.8mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:WE_68715014022" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:WE_68715014022" (layer "F.Cu")
     (tedit 605B11BC) (tstamp 04d646a1-f604-4cfb-aa03-014fa6c3333a)
     (at 183 86 -90)
     (property "MPN" "68715014022 ")
@@ -499,14 +499,14 @@
       (net 161 "/Interface/5V_FFC_S") (pinfunction "Pin_50") (pintype "passive") (tstamp 797573aa-addb-442a-9476-43e351820ffd))
     (pad "~" smd rect locked (at 13.56 -1.44 90) (size 3 2.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 53f6b336-9b3c-4132-9ae4-80f854c3bd07))
     (pad "~" smd rect locked (at -14.84 -1.19 90) (size 2.7 3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp aa40c6cc-f6a6-494f-9002-3a3cb3bc9325))
-    (model "${ANT3DMDL}/68715014022.stp"
+    (model "${KIPRJMOD}/lib/3d-models/68715014022.stp"
       (offset (xyz -0.65 1.5 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 -180))
     )
   )
 
-  (footprint "antmicro-footprints:Testpoint_smd_0_75mm" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:Testpoint_smd_0_75mm" (layer "F.Cu")
     (tedit 5E4A9375) (tstamp 07d3c744-ba49-4f5f-877b-f65b5f0db5eb)
     (at 178.12 87.67)
     (property "Sheetfile" "auxiliary.kicad_sch")
@@ -525,7 +525,7 @@
       (net 53 "CAM3_SCL") (pintype "passive") (tstamp 85358309-951b-4792-91dc-3083ed57b98a))
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp 0c7b840c-0c74-430a-b478-6aa975922a1c)
     (at 177.53 102.59)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -561,14 +561,14 @@
       (net 161 "/Interface/5V_FFC_S") (pintype "passive") (tstamp 94b5da01-e101-499a-87a7-3177a6fa6373))
     (pad "2" smd roundrect locked (at 0.485 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 62 "Net-(D4-Pad1)") (pintype "passive") (tstamp aa6d7df0-2216-4559-b91a-60e44ca25288))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:Testpoint_smd_0_75mm" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:Testpoint_smd_0_75mm" (layer "F.Cu")
     (tedit 5E4A9375) (tstamp 121579ac-2e28-44a0-a36b-6ceeb3ef8b31)
     (at 162 97.75)
     (property "Sheetfile" "auxiliary.kicad_sch")
@@ -587,7 +587,7 @@
       (net 39 "CAM1_SCL") (pintype "passive") (tstamp d884ce4f-86e8-4709-8ebf-71f8d98ced11))
   )
 
-  (footprint "antmicro-footprints:0402-cap" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0402-cap" (layer "F.Cu")
     (tedit 616D63CF) (tstamp 17295dc7-fcbf-447c-93bf-9a53bc3c9720)
     (at 164.485 94.4 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -623,14 +623,14 @@
       (net 2 "+3V3") (pintype "passive") (tstamp 2a6ce2cb-80a9-442f-bfbf-fe3293bab6a8))
     (pad "2" smd roundrect locked (at 0.485 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (pintype "passive") (tstamp 23709325-7a36-42df-a0fd-12b6c24de7c0))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp 1a79c615-d80f-4771-a4e0-81a126759f14)
     (at 128.3 82.315 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -666,14 +666,14 @@
       (net 164 "VSYNC_CAM1_3V3") (pintype "passive") (tstamp 36b31260-bc8a-4cef-b1fb-cbe058238664))
     (pad "2" smd roundrect locked (at 0.485 0 90) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 136 "/Auxiliary/CAM_SYNC_3V3") (pintype "passive") (tstamp 1450354e-93dd-4f0e-8529-71ff4a0022f9))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:PUSB3F96X" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:PUSB3F96X" (layer "F.Cu")
     (tedit 6215DC23) (tstamp 1e2876d1-a578-400a-9fd7-6bf875e95081)
     (at 123.2875 96.8 90)
     (property "MPN" "PUSB3F96X")
@@ -721,14 +721,14 @@
       (net 165 "VSYNC_CAM2_3V3") (pinfunction "CH2") (pintype "passive") (tstamp b2da4f63-8967-4d90-aba3-609a2c6331c5))
     (pad "10" smd rect locked (at -1 -0.3875 270) (size 0.2 0.475) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 166 "VSYNC_CAM3_3V3") (pinfunction "CH1") (pintype "passive") (tstamp e0ba97d4-b505-4c98-9ffb-e37cb718501c))
-    (model "${ANT3DMDL}/SOT1176.step"
+    (model "${KIPRJMOD}/lib/3d-models/SOT1176.step"
       (offset (xyz -1 -1.9 1.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0603-Fuse-Littelfuse-0467" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0603-Fuse-Littelfuse-0467" (layer "F.Cu")
     (tedit 618B9E9E) (tstamp 1ef98934-2c3a-42e0-977e-436eba5543c2)
     (at 166.2 100.2 90)
     (property "MPN" "04671.25NR")
@@ -759,19 +759,19 @@
       (net 159 "/Interface/5V_FFC_B") (pintype "passive") (tstamp 3598e9f1-38d0-48c2-bf31-289a425be7ff))
     (pad "2" smd rect locked (at 0.891 0 90) (size 0.762 1.09) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 3 "+5V") (pintype "passive") (tstamp 35b28474-a19d-41ce-8438-bd62bda6ef27))
-    (model "${ANT3DMDL}/0603-fuse"
+    (model "${KIPRJMOD}/lib/3d-models/0603-fuse"
       (offset (xyz -2.9 0.65 -0.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${ANT3DMDL}/0603-fuse-1.6x0.8mm.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-fuse-1.6x0.8mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp 1f7e8261-6274-4759-ba07-10b2ef6c626b)
     (at 158.8 95.6 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -807,14 +807,14 @@
       (net 138 "/Auxiliary/SDA_3V3") (pintype "passive") (tstamp 64803c68-daaf-4edf-94fc-e2a566674be8))
     (pad "2" smd roundrect locked (at 0.485 0 90) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "+3V3") (pintype "passive") (tstamp 09e7aece-a608-41bc-ba54-8f29486c95d2))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0603-cap" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0603-cap" (layer "F.Cu")
     (tedit 5D5E94D2) (tstamp 21ebf416-a71b-42c0-aa7c-058609eeba6f)
     (at 174.8 100 180)
     (property "MPN" "0603YD105KAT2A")
@@ -850,14 +850,14 @@
       (net 161 "/Interface/5V_FFC_S") (pintype "passive") (tstamp 15692e93-8684-4aee-b447-229cc4b5eff6))
     (pad "2" smd rect locked (at 0.7 0 180) (size 0.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pintype "passive") (tstamp d8b3e258-c7bb-4807-aee4-fe143d32a207))
-    (model "${ANT3DMDL}/0603-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-cap.step"
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:Testpoint_smd_0_75mm" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:Testpoint_smd_0_75mm" (layer "F.Cu")
     (tedit 5E4A9375) (tstamp 28f333c5-8278-466a-b3a8-197357b215f8)
     (at 156.1 101.5 180)
     (property "Sheetfile" "auxiliary.kicad_sch")
@@ -876,7 +876,7 @@
       (net 110 "I2C_GP3_DAT") (pintype "passive") (tstamp 03ba5436-6039-4b2c-aff7-2e7cafc460b2))
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp 2e7cb3a6-2e04-4c57-be06-33af47b91ac1)
     (at 169.6 92.3)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -912,14 +912,14 @@
       (net 142 "Net-(R11-Pad1)") (pintype "passive") (tstamp 9f5512ec-506a-40e8-91ca-246161eb6966))
     (pad "2" smd roundrect locked (at 0.485 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "+3V3") (pintype "passive") (tstamp aaed3b53-90b9-4c1e-99e5-78902a635e4e))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp 33a04d62-f561-4aa3-af85-db3aa5493906)
     (at 172.08 102.6)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -955,14 +955,14 @@
       (net 159 "/Interface/5V_FFC_B") (pintype "passive") (tstamp 3710c83c-d36d-478c-9e60-c9e07eb72169))
     (pad "2" smd roundrect locked (at 0.485 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 60 "Net-(D2-Pad1)") (pintype "passive") (tstamp c2ab9635-c782-404e-bd94-e95a799e5349))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:LED_0603" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:LED_0603" (layer "F.Cu")
     (tedit 60C2DD7B) (tstamp 36c30f93-0cfd-4942-8609-34c641b87858)
     (at 174.03 104.59 90)
     (property "MPN" "LTST-C190GKT")
@@ -1000,14 +1000,14 @@
       (net 59 "Net-(D1-Pad1)") (pintype "input") (tstamp 01e8cbe6-8e64-4039-9c94-19ccb8a557c0))
     (pad "2" smd rect locked (at -0.75 0 90) (size 0.8 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pintype "output") (tstamp 24dacfaf-56be-49b9-a487-bf576555c367))
-    (model "${ANT3DMDL}/LED0603.step"
+    (model "${KIPRJMOD}/lib/3d-models/LED0603.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp 38a00c5a-5d38-4b73-bc85-860077d326eb)
     (at 157.6 95.6 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -1043,14 +1043,14 @@
       (net 138 "/Auxiliary/SDA_3V3") (pintype "passive") (tstamp ec10313f-c3de-4474-adb7-8bb6eaad28fd))
     (pad "2" smd roundrect locked (at 0.485 0 90) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 139 "Net-(R9-Pad2)") (pintype "passive") (tstamp 7a297eaa-51d5-4741-96a7-2e52ec97e611))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:antmicro-logo_scaled_20mm" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:antmicro-logo_scaled_20mm" (layer "F.Cu")
     (tedit 5E4A93FA) (tstamp 3c6caf80-8550-466f-8102-8f096c64293e)
     (at 135 73)
     (attr board_only exclude_from_pos_files exclude_from_bom)
@@ -3368,7 +3368,7 @@
       ) (layer "F.Mask") (width 0.00186) (fill solid) (tstamp d65a1ecc-d89b-41b8-9447-ba70eb7bf43a))
   )
 
-  (footprint "antmicro-footprints:PUSB3F96X" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:PUSB3F96X" (layer "F.Cu")
     (tedit 6215DC23) (tstamp 43775ffe-1655-472e-9a82-acb8a0dd956a)
     (at 123.3 93.4 90)
     (property "MPN" "PUSB3F96X")
@@ -3416,14 +3416,14 @@
       (net 136 "/Auxiliary/CAM_SYNC_3V3") (pinfunction "CH2") (pintype "passive") (tstamp 02859867-33d6-4066-a848-7ee818a30eb1))
     (pad "10" smd rect locked (at -1 -0.3875 270) (size 0.2 0.475) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 169 "unconnected-(D7-Pad1)") (pinfunction "CH1") (pintype "passive+no_connect") (tstamp ba3a0bb2-71c3-4529-8e4b-fde0a886a98b))
-    (model "${ANT3DMDL}/SOT1176.step"
+    (model "${KIPRJMOD}/lib/3d-models/SOT1176.step"
       (offset (xyz -1 -1.9 1.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp 4540f37c-00e0-4b18-8a26-8c878c96c5d3)
     (at 172.3 98.8 -90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -3459,14 +3459,14 @@
       (net 39 "CAM1_SCL") (pintype "passive") (tstamp 5e93173e-6baa-478c-9acf-64b1a7ef16ef))
     (pad "2" smd roundrect locked (at 0.485 0 270) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "+3V3") (pintype "passive") (tstamp 2f447727-6e70-489a-962f-53823082aa5f))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:JST_SM09B-SRSS-TB(LF)(SN)" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:JST_SM09B-SRSS-TB(LF)(SN)" (layer "F.Cu")
     (tedit 62D66B68) (tstamp 464cba0d-ef86-4829-90e9-128102c681d7)
     (at 117 96 -90)
     (property "MPN" "SM09B-SRSS-TB(LF)(SN)")
@@ -3523,14 +3523,14 @@
       (net 1 "GND") (pinfunction "SHIELD") (pintype "passive") (tstamp 64e2e386-f8d5-4f7a-8564-f3d55c8a1743))
     (pad "S2" smd rect (at 5.3 0) (size 1.8 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pinfunction "SHIELD") (pintype "passive") (tstamp 54848360-752e-4da1-bf40-3f8897ff354e))
-    (model "${ANT3DMDL}/SM09B-SRSS-TB_LF__SN_.step"
+    (model "${KIPRJMOD}/lib/3d-models/SM09B-SRSS-TB_LF__SN_.step"
       (offset (xyz -2 3.2 -0.3))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp 48d4ca24-7b0e-450d-9a16-868dc02bdcf3)
     (at 156.4 95.6 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -3566,14 +3566,14 @@
       (net 140 "/Auxiliary/SCL_3V3") (pintype "passive") (tstamp 3a6db117-4855-4646-ab41-c89aa9fe4456))
     (pad "2" smd roundrect locked (at 0.485 0 90) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 141 "Net-(R10-Pad2)") (pintype "passive") (tstamp 35b580d1-562c-4e7c-9faa-050d4735b658))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:JST_SM06B-SRSS-TB(LF)(SN)" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:JST_SM06B-SRSS-TB(LF)(SN)" (layer "F.Cu")
     (tedit 62D66C90) (tstamp 49e8371a-bcbd-4448-a9cc-1c4e5043ff9b)
     (at 120.875 84.2 -90)
     (property "MPN" "SM06B-GHS-TB(LF)(SN)")
@@ -3620,14 +3620,14 @@
       (net 1 "GND") (pinfunction "SHIELD") (pintype "passive") (tstamp 3c767143-ee7e-492b-87e2-4fb06b651d40))
     (pad "S2" smd rect (at 3.8 3.875 270) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pinfunction "SHIELD") (pintype "passive") (tstamp 0592cfa5-6314-4452-b852-69f5e5b91e2d))
-    (model "${ANT3DMDL}/SM06B-SRSS-TB_LF__SN_.step"
+    (model "${KIPRJMOD}/lib/3d-models/SM06B-SRSS-TB_LF__SN_.step"
       (offset (xyz 0 -2.1 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:LED_0603" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:LED_0603" (layer "F.Cu")
     (tedit 60C2DD7B) (tstamp 49fb674b-207c-4245-960f-ea914cf4bb0c)
     (at 179.53 104.59 90)
     (property "MPN" "LTST-C190GKT")
@@ -3665,14 +3665,14 @@
       (net 61 "Net-(D3-Pad1)") (pintype "input") (tstamp 27dcbe06-ac9f-4452-abf9-82429fb51cb1))
     (pad "2" smd rect locked (at -0.75 0 90) (size 0.8 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pintype "output") (tstamp 070d2d00-917b-47f5-8739-e1c8d7398229))
-    (model "${ANT3DMDL}/LED0603.step"
+    (model "${KIPRJMOD}/lib/3d-models/LED0603.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:TSSOP-8_W3mm" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:TSSOP-8_W3mm" (layer "F.Cu")
     (tedit 5DC1340D) (tstamp 4afd08ef-3a99-4fbe-b88b-66fe0f2bd2ec)
     (at 153.9 99.1 -90)
     (descr "http://www.ti.com/lit/ds/symlink/ina333.pdf")
@@ -3727,14 +3727,14 @@
       (net 2 "+3V3") (pinfunction "VCC_B") (pintype "power_in") (solder_mask_margin 0.05) (tstamp 70e5e151-1b7a-4217-8ccf-bd08ce1d5509))
     (pad "8" smd rect locked (at -0.975 -2.2 270) (size 0.45 1.45) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 138 "/Auxiliary/SDA_3V3") (pinfunction "B1") (pintype "bidirectional") (solder_mask_margin 0.05) (tstamp a4811f96-6da8-4344-b850-5024010be04c))
-    (model "${ANT3DMDL}/TSSOP-8 3_1x3_1.STEP"
+    (model "${KIPRJMOD}/lib/3d-models/TSSOP-8 3_1x3_1.STEP"
       (offset (xyz 0 0 0.59))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp 4def164f-6ef7-4ccd-a925-89db805cac7d)
     (at 174.8 92.4 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -3770,14 +3770,14 @@
       (net 145 "Net-(R15-Pad1)") (pintype "passive") (tstamp 47d38a44-4dd4-4f28-918f-2169a0b8e0fe))
     (pad "2" smd roundrect locked (at 0.485 0 90) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 54 "CAM2_SDA") (pintype "passive") (tstamp 3b8fc279-f666-4f5b-97e8-97dd1f9c893c))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:Testpoint_smd_0_75mm" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:Testpoint_smd_0_75mm" (layer "F.Cu")
     (tedit 5E4A9375) (tstamp 5258f938-bea3-4dee-8551-dd03e2c114c1)
     (at 177 93.1508)
     (property "Sheetfile" "auxiliary.kicad_sch")
@@ -4168,7 +4168,7 @@
       ) (layer "F.SilkS") (width 0) (fill solid) (tstamp 8ca9e17a-2862-4120-b67d-63c8428eac4c))
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp 54d8c5cb-5bc0-45fb-b60f-19c7817605cf)
     (at 161.2 90.75 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -4204,14 +4204,14 @@
       (net 63 "/Auxiliary/AUX_I2C_SCL") (pintype "passive") (tstamp b2185c90-8cd3-423a-ad99-8f5c591b4ce0))
     (pad "2" smd roundrect locked (at 0.485 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "+3V3") (pintype "passive") (tstamp 609043e8-d5e5-4893-bd16-6cdde8930647))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:Testpoint_smd_0_75mm" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:Testpoint_smd_0_75mm" (layer "F.Cu")
     (tedit 5E4A9375) (tstamp 551dd017-add4-4e2a-a90f-5a7c84fff968)
     (at 178.7 90.4508)
     (property "Sheetfile" "auxiliary.kicad_sch")
@@ -4230,7 +4230,7 @@
       (net 52 "CAM3_SDA") (pintype "passive") (tstamp 0c015c43-da8c-477b-a2bd-06cd7a89f6f0))
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp 55babb80-4025-43ea-b11e-fe163de18407)
     (at 176.33 87.7)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -4266,14 +4266,14 @@
       (net 53 "CAM3_SCL") (pintype "passive") (tstamp 0c66eeb3-9ec5-4144-a429-02f5d2ee6628))
     (pad "2" smd roundrect locked (at 0.485 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "+3V3") (pintype "passive") (tstamp 6defe67a-0445-4536-b1f3-d17fe9b09869))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp 5c766012-29ab-4a8d-a573-1cc08b06febe)
     (at 170.8 90.2)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -4309,14 +4309,14 @@
       (net 144 "Net-(R14-Pad1)") (pintype "passive") (tstamp d35a6ccc-cb85-4a1a-88f6-6002f4549c25))
     (pad "2" smd roundrect locked (at 0.485 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 41 "CAM0_SCL") (pintype "passive") (tstamp 308e760e-2b12-457d-9906-5a10924c0406))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-cap" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0402-cap" (layer "F.Cu")
     (tedit 616D63CF) (tstamp 5e774e8e-12df-4635-b939-e1a829ccc583)
     (at 157.9 98.315 -90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -4352,14 +4352,14 @@
       (net 2 "+3V3") (pintype "passive") (tstamp 004cefcd-82be-49a2-b35c-a9ffc640742a))
     (pad "2" smd roundrect locked (at 0.485 0 270) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (pintype "passive") (tstamp 2f6722c4-8d20-4993-9525-63b90f6819c1))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:WE_68715014522_ONE-SIDE" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:WE_68715014522_ONE-SIDE" (layer "F.Cu")
     (tedit 5E4E6E48) (tstamp 63620500-dc48-4ab2-a1f2-2723cf17499f)
     (at 150 103.525)
     (property "MPN" "68715014522 ")
@@ -4494,14 +4494,14 @@
       (net 159 "/Interface/5V_FFC_B") (pinfunction "Pin_50") (pintype "passive") (tstamp e4018a2b-baee-41f5-be10-822388de1d2a))
     (pad "~" smd rect locked (at -14.2 2.7) (size 3 2.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 1e8c9721-aed7-4912-818f-7d09a6d73979))
     (pad "~" smd rect locked (at 14.2 2.45) (size 2.7 3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9843dffd-ee68-467c-887e-6116e5174a61))
-    (model "${ANT3DMDL}/WE_68715014522.stp"
+    (model "${KIPRJMOD}/lib/3d-models/WE_68715014522.stp"
       (offset (xyz 0 -2.5 1))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 -180))
     )
   )
 
-  (footprint "antmicro-footprints:0402-cap" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0402-cap" (layer "F.Cu")
     (tedit 616D63CF) (tstamp 63de5827-fb5c-41b2-a8ed-cdf12f009216)
     (at 150.1 99.2 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -4537,14 +4537,14 @@
       (net 56 "+1V8") (pintype "passive") (tstamp e02c5485-436f-4a14-9973-ead5fc6d79bc))
     (pad "2" smd roundrect locked (at 0.485 0 90) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (pintype "passive") (tstamp ae29e178-4990-4685-b3ac-888fffc48a47))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp 64612e08-fa7b-4e11-8273-777867cdd8fc)
     (at 169.6 94.3 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -4580,14 +4580,14 @@
       (net 1 "GND") (pintype "passive") (tstamp 51463dc4-76fd-453b-b2fd-9335a491ac72))
     (pad "2" smd roundrect locked (at 0.485 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 137 "Net-(R7-Pad1)") (pintype "passive") (tstamp aac379f6-4eb4-4520-81a6-b63bed4fa6bf))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp 64a700dd-2077-499f-a6df-d4bd2d3218fb)
     (at 174.8 90.3 -90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -4623,14 +4623,14 @@
       (net 146 "Net-(R16-Pad1)") (pintype "passive") (tstamp 1315343a-9d14-4150-a0e8-7fca1fdc6fe3))
     (pad "2" smd roundrect locked (at 0.485 0 270) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 55 "CAM2_SCL") (pintype "passive") (tstamp e4e8b762-71ce-481a-881c-ba5d5cec2a99))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0603-Fuse-Littelfuse-0467" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0603-Fuse-Littelfuse-0467" (layer "F.Cu")
     (tedit 618B9E9E) (tstamp 68bb850d-728e-4649-b980-99e2b8946a0a)
     (at 174.8 98.4 180)
     (property "MPN" "04671.25NR")
@@ -4661,19 +4661,19 @@
       (net 161 "/Interface/5V_FFC_S") (pintype "passive") (tstamp 856c6aa3-fb0e-452d-a19e-ce052a7e86aa))
     (pad "2" smd rect locked (at 0.891 0 180) (size 0.762 1.09) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 3 "+5V") (pintype "passive") (tstamp ff7ce478-49d6-4cea-a80f-1413a3692fd1))
-    (model "${ANT3DMDL}/0603-fuse"
+    (model "${KIPRJMOD}/lib/3d-models/0603-fuse"
       (offset (xyz -2.9 0.65 -0.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${ANT3DMDL}/0603-fuse-1.6x0.8mm.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-fuse-1.6x0.8mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:mounting-hole-3.5mm-NPTH" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:mounting-hole-3.5mm-NPTH" (layer "F.Cu")
     (tedit 60AE3806) (tstamp 6c061d67-f797-4f5a-99ae-4a1e1a014664)
     (at 183.5 104.96 180)
     (attr through_hole board_only)
@@ -4688,7 +4688,7 @@
     (pad "" np_thru_hole circle locked (at 0 0 180) (size 3.5 3.5) (drill 3.5) (layers *.Cu *.Mask) (tstamp d9f0c899-e13a-411f-bcbc-939025dc13c2))
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp 6db3dca2-9efa-48ef-a1f4-da2cfc7dc209)
     (at 130.3 82.315 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -4724,14 +4724,14 @@
       (net 166 "VSYNC_CAM3_3V3") (pintype "passive") (tstamp c3e3abf4-1d06-4772-af16-0b91851596cc))
     (pad "2" smd roundrect locked (at 0.485 0 90) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 136 "/Auxiliary/CAM_SYNC_3V3") (pintype "passive") (tstamp cdd162ad-09ea-461d-b97a-f188fe326840))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:PUSB3F96X" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:PUSB3F96X" (layer "F.Cu")
     (tedit 6215DC23) (tstamp 716699db-1bc3-4b0c-b4a6-113393723b62)
     (at 125.03 78.2 90)
     (property "MPN" "PUSB3F96X")
@@ -4779,14 +4779,14 @@
       (net 52 "CAM3_SDA") (pinfunction "CH2") (pintype "passive") (tstamp b5218d35-8aa8-4a0d-8c6e-cf56aa9bc985))
     (pad "10" smd rect locked (at -1 -0.3875 270) (size 0.2 0.475) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 53 "CAM3_SCL") (pinfunction "CH1") (pintype "passive") (tstamp 78e72a16-468b-4dc6-95b8-d0e5203f53cf))
-    (model "${ANT3DMDL}/SOT1176.step"
+    (model "${KIPRJMOD}/lib/3d-models/SOT1176.step"
       (offset (xyz -1 -1.9 1.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:LED_0603" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:LED_0603" (layer "F.Cu")
     (tedit 60C2DD7B) (tstamp 75f72c50-b4ad-4305-9610-5948ca142ce6)
     (at 178.03 104.59 90)
     (property "MPN" "LTST-C190GKT")
@@ -4824,14 +4824,14 @@
       (net 62 "Net-(D4-Pad1)") (pintype "input") (tstamp 500baf33-ec1f-456c-8a3e-65999269d144))
     (pad "2" smd rect locked (at -0.75 0 90) (size 0.8 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pintype "output") (tstamp 66702c13-ffeb-4767-ab46-4fa1a84344c5))
-    (model "${ANT3DMDL}/LED0603.step"
+    (model "${KIPRJMOD}/lib/3d-models/LED0603.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp 79c34ca0-372e-4215-bf63-4b8a1259a383)
     (at 124.6 89.4)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -4867,14 +4867,14 @@
       (net 135 "/Auxiliary/CAM_SYNC") (pintype "passive") (tstamp b6c2bcb8-83fc-412a-83ca-0e712286d565))
     (pad "2" smd roundrect locked (at 0.485 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 174 "GPIO10") (pintype "passive") (tstamp c0ff53aa-b661-4f2c-8781-6031c68ee3c3))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:SM04B-SRSS-TB-LF-SN" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:SM04B-SRSS-TB-LF-SN" (layer "F.Cu")
     (tedit 62D66C90) (tstamp 79eca4a2-c314-46fa-9279-8c6ea8968aba)
     (at 120.905 74.29 -90)
     (property "MPN" "SM04B-SRSS-TB-LF-SN")
@@ -4922,14 +4922,14 @@
       (net 1 "GND") (pinfunction "SHIELD") (pintype "passive") (tstamp f59c8752-e3cc-4464-bd0f-9860924361a1))
     (pad "S2" smd rect (at 2.8 3.875 270) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pinfunction "SHIELD") (pintype "passive") (tstamp 6ef96a12-7224-4e07-a561-00bb6bbd8839))
-    (model "${ANT3DMDL}/SM04B-SRSS-TB-LF-SN.step"
+    (model "${KIPRJMOD}/lib/3d-models/SM04B-SRSS-TB-LF-SN.step"
       (offset (xyz 0 -0.6 -0.35))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:LED_0603" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:LED_0603" (layer "F.Cu")
     (tedit 60C2DD7B) (tstamp 7bfcdba3-b805-48a0-8e74-f010cd8a1afe)
     (at 172.53 104.59 90)
     (property "MPN" "LTST-C190GKT")
@@ -4967,14 +4967,14 @@
       (net 60 "Net-(D2-Pad1)") (pintype "input") (tstamp 6fb4e7bb-dd04-4a05-87b4-b69466f940bc))
     (pad "2" smd rect locked (at -0.75 0 90) (size 0.8 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pintype "output") (tstamp 3be67e33-db09-486f-9466-acdc6c7fbc30))
-    (model "${ANT3DMDL}/LED0603.step"
+    (model "${KIPRJMOD}/lib/3d-models/LED0603.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp 7c36459e-e138-44dd-9df4-c65a3a901006)
     (at 173 93.8 -90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -5010,14 +5010,14 @@
       (net 150 "Net-(R25-Pad1)") (pintype "passive") (tstamp 8320cab6-a8c0-4184-8552-c803133b3449))
     (pad "2" smd roundrect locked (at 0.485 0 270) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 39 "CAM1_SCL") (pintype "passive") (tstamp be5f8ba7-1a60-4ae2-82a2-7d03e08460ea))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp 840e9ad8-0f98-4c2b-84ab-a085ee722179)
     (at 176.315 90.8)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -5053,14 +5053,14 @@
       (net 55 "CAM2_SCL") (pintype "passive") (tstamp 18c0b4da-379e-4b4e-a35e-6b686bf2b90b))
     (pad "2" smd roundrect locked (at 0.485 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "+3V3") (pintype "passive") (tstamp e19882f8-16cc-439c-80a9-aaff8eec2ac3))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp 85c3a6bd-4d3b-4edd-bdec-0b07fa1252d2)
     (at 171.2 98.8 -90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -5096,14 +5096,14 @@
       (net 40 "CAM1_SDA") (pintype "passive") (tstamp f7f48527-804d-4585-b371-51b77c66e2ce))
     (pad "2" smd roundrect locked (at 0.485 0 270) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "+3V3") (pintype "passive") (tstamp 04e36f8e-172b-49fd-bfff-72e105d92f15))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0603-cap" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0603-cap" (layer "F.Cu")
     (tedit 5D5E94D2) (tstamp 98d3f5d6-2680-45c6-af61-4460fe8aff9b)
     (at 164.6 99.4 90)
     (property "MPN" "0603YD105KAT2A")
@@ -5139,7 +5139,7 @@
       (net 159 "/Interface/5V_FFC_B") (pintype "passive") (tstamp 1b4bb830-6592-42ae-8031-e63b301c1489))
     (pad "2" smd rect locked (at 0.7 0 90) (size 0.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pintype "passive") (tstamp 08910e90-95b6-405d-9a91-c082ad33a682))
-    (model "${ANT3DMDL}/0603-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-cap.step"
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -5614,7 +5614,7 @@
       ) (layer "F.SilkS") (width 0) (fill solid) (tstamp eaafc806-df20-404e-bc13-8f13619a0cdb))
   )
 
-  (footprint "antmicro-footprints:0603-cap" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0603-cap" (layer "F.Cu")
     (tedit 5D5E94D2) (tstamp a18ef698-a2d9-4a65-aa64-129af6fe280e)
     (at 161.3 100.5 90)
     (property "MPN" "0603YD105KAT2A")
@@ -5650,14 +5650,14 @@
       (net 158 "/Interface/3V3_FFC_B") (pintype "passive") (tstamp cba1d6a1-b992-4d1b-8b59-a99ec112b83e))
     (pad "2" smd rect locked (at 0.7 0 90) (size 0.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pintype "passive") (tstamp a9325330-9a7a-4e97-b43f-30b3b841cb3b))
-    (model "${ANT3DMDL}/0603-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-cap.step"
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:Testpoint_smd_0_75mm" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:Testpoint_smd_0_75mm" (layer "F.Cu")
     (tedit 5E4A9375) (tstamp a3c03f99-4ad7-4352-b728-258b9372f8fd)
     (at 161.75 96.25)
     (property "Sheetfile" "auxiliary.kicad_sch")
@@ -5676,7 +5676,7 @@
       (net 41 "CAM0_SCL") (pintype "passive") (tstamp c10e6a55-1911-46dc-979d-fcd316009af9))
   )
 
-  (footprint "antmicro-footprints:Testpoint_smd_0_75mm" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:Testpoint_smd_0_75mm" (layer "F.Cu")
     (tedit 5E4A9375) (tstamp a469a56b-0033-41b9-9036-bf923759e219)
     (at 154.2 93.9508)
     (property "Sheetfile" "auxiliary.kicad_sch")
@@ -5695,7 +5695,7 @@
       (net 3 "+5V") (pintype "passive") (tstamp a0abf11e-21de-46c8-ae52-e701781cb35c))
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp a4d6f235-82fb-48f9-be64-0c228db3a209)
     (at 170.8 91.2)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -5731,14 +5731,14 @@
       (net 143 "Net-(R13-Pad1)") (pintype "passive") (tstamp 7681832a-fe4e-4d6f-b4b4-52c2a0bdaf18))
     (pad "2" smd roundrect locked (at 0.485 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 42 "CAM0_SDA") (pintype "passive") (tstamp 71928a50-eb10-4617-952d-a10e6013d73d))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:HVQFN24" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:HVQFN24" (layer "F.Cu")
     (tedit 616D9258) (tstamp a6330ebf-c684-40b6-b335-8f9cffb37171)
     (at 165.55 90.75 180)
     (property "MPN" "PCA9547BS,118")
@@ -5827,14 +5827,14 @@
       (net 142 "Net-(R11-Pad1)") (pinfunction "~{RESET}") (pintype "input") (tstamp 4e2b8907-8347-49f6-94ce-7987373b7aa7))
     (pad "25" smd rect locked (at 0 0 180) (size 2.1 2.1) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pinfunction "GND") (pintype "power_in") (tstamp 340a03f4-24f8-4ff0-8a28-fc5ba45d75c7))
-    (model "${ANT3DMDL}/QFN-24_4x4.step"
+    (model "${KIPRJMOD}/lib/3d-models/QFN-24_4x4.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 -90))
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp a9c360cb-344d-4b67-bc57-f10c528a45a0)
     (at 169 98.8 -90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -5870,14 +5870,14 @@
       (net 42 "CAM0_SDA") (pintype "passive") (tstamp 51e59322-3cf2-457d-adff-1cb8dc637811))
     (pad "2" smd roundrect locked (at 0.485 0 270) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "+3V3") (pintype "passive") (tstamp 3db91cbe-7515-4e3c-93f8-b7fb2e3c8e31))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0603-cap" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0603-cap" (layer "F.Cu")
     (tedit 5D5E94D2) (tstamp a9c8fdc2-d456-4bad-823d-80a693f7b600)
     (at 174.8 94.75 180)
     (property "MPN" "0603YD105KAT2A")
@@ -5913,14 +5913,14 @@
       (net 160 "/Interface/3V3_FFC_S") (pintype "passive") (tstamp cd5b406f-58bc-4dff-b1a3-6e19f9210637))
     (pad "2" smd rect locked (at 0.7 0 180) (size 0.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pintype "passive") (tstamp 5a8709ce-657c-47e7-b774-ee39d1a011e9))
-    (model "${ANT3DMDL}/0603-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-cap.step"
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:oshw-logo" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:oshw-logo" (layer "F.Cu")
     (tedit 5E4A93CD) (tstamp b8970fee-015d-4130-8dfa-dc03df874562)
     (at 124 104.5)
     (attr board_only exclude_from_pos_files exclude_from_bom)
@@ -10452,7 +10452,7 @@
       ) (layer "F.Mask") (width 0.01) (fill solid) (tstamp ed818275-ebe5-46cf-aa1d-316624c3bee9))
   )
 
-  (footprint "antmicro-footprints:Testpoint_smd_0_75mm" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:Testpoint_smd_0_75mm" (layer "F.Cu")
     (tedit 5E4A9375) (tstamp c0a80200-1f08-4441-a785-ee8ce54a7249)
     (at 160.45 93.9)
     (property "Sheetfile" "interface.kicad_sch")
@@ -10471,7 +10471,7 @@
       (net 15 "/Interface/CAM1_RST") (pintype "passive") (tstamp 6fbba8de-ea16-4e1a-b06d-2c85287991d4))
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp c1910dd7-a168-4431-a39c-c74c850557a7)
     (at 122.8 89.5 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -10507,14 +10507,14 @@
       (net 1 "GND") (pintype "passive") (tstamp be50a022-f19a-456e-97e8-7b0c2ca8a6ed))
     (pad "2" smd roundrect locked (at 0.485 0 90) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 135 "/Auxiliary/CAM_SYNC") (pintype "passive") (tstamp 0b79a09a-f6dc-446a-8e30-caaa84852810))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:Testpoint_smd_0_75mm" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:Testpoint_smd_0_75mm" (layer "F.Cu")
     (tedit 5E4A9375) (tstamp c34e665d-734b-4849-a7ea-f344bb332cb1)
     (at 152.8 101.65 180)
     (property "Sheetfile" "auxiliary.kicad_sch")
@@ -10533,7 +10533,7 @@
       (net 109 "I2C_GP3_CLK") (pintype "passive") (tstamp 5ab2880e-71e9-4d84-abfa-ccc631eb3332))
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp c7acb57f-99f4-43b7-bd7e-139fdda68b66)
     (at 169.6 93.3)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -10570,14 +10570,14 @@
       (net 137 "Net-(R7-Pad1)") (pintype "passive") (tstamp f3794f72-1ac8-48aa-8ccc-46e2cc6411e7))
     (pad "2" smd roundrect locked (at 0.485 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "+3V3") (pintype "passive") (tstamp b6775a72-fc4a-4939-b14e-63132ab250d3))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp cce455f3-4c4e-4810-ac89-42f14c975757)
     (at 174.315 87.7)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -10613,14 +10613,14 @@
       (net 152 "Net-(R27-Pad1)") (pintype "passive") (tstamp 1a998134-41bf-4e3c-a8f2-3a16d1d1999e))
     (pad "2" smd roundrect locked (at 0.485 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 53 "CAM3_SCL") (pintype "passive") (tstamp b0dee839-09e0-4327-aa69-289afe172165))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:Testpoint_smd_0_75mm" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:Testpoint_smd_0_75mm" (layer "F.Cu")
     (tedit 5E4A9375) (tstamp ccee7d0c-7611-41b7-84a5-c1887c4998a3)
     (at 162.75 97)
     (property "Sheetfile" "auxiliary.kicad_sch")
@@ -10639,7 +10639,7 @@
       (net 40 "CAM1_SDA") (pintype "passive") (tstamp 9a4271d4-03cb-43b1-b769-3400cff06568))
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp ccfce90f-ecc4-4228-8aa1-2369c50ddd88)
     (at 174.315 88.8)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -10675,14 +10675,14 @@
       (net 151 "Net-(R26-Pad1)") (pintype "passive") (tstamp dc036756-bc4d-4f87-ba78-1860b6c3d029))
     (pad "2" smd roundrect locked (at 0.485 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 52 "CAM3_SDA") (pintype "passive") (tstamp ccb0dad2-0926-45ec-9891-63fb6d678e65))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp cf283a5f-a257-45f5-9cdd-3b7b313280d8)
     (at 176.315 88.8)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -10718,14 +10718,14 @@
       (net 52 "CAM3_SDA") (pintype "passive") (tstamp 0e38fc02-771f-4404-a2ef-78154f0abdc2))
     (pad "2" smd roundrect locked (at 0.485 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "+3V3") (pintype "passive") (tstamp b5a369c1-4700-45ac-95a0-8bf74ef4d9f5))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp d060d816-374d-453f-a72f-c1a3139257ad)
     (at 180.03 102.6 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -10761,14 +10761,14 @@
       (net 160 "/Interface/3V3_FFC_S") (pintype "passive") (tstamp a96c8412-dd3a-4dd5-9d47-60e32b102085))
     (pad "2" smd roundrect locked (at 0.485 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 61 "Net-(D3-Pad1)") (pintype "passive") (tstamp e62965a7-c2e8-4d07-8af9-e12dc5af6133))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0603-Fuse-Littelfuse-0467" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0603-Fuse-Littelfuse-0467" (layer "F.Cu")
     (tedit 618B9E9E) (tstamp d766e3af-cad2-45cf-8558-4b3c98d3122d)
     (at 174.8 96.5 180)
     (property "MPN" "04671.25NR")
@@ -10799,19 +10799,19 @@
       (net 160 "/Interface/3V3_FFC_S") (pintype "passive") (tstamp 87529b13-9819-45d7-8d29-e8acd9da26e6))
     (pad "2" smd rect locked (at 0.891 0 180) (size 0.762 1.09) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "+3V3") (pintype "passive") (tstamp 869e0e15-6348-4ac2-afdc-856933f4914a))
-    (model "${ANT3DMDL}/0603-fuse"
+    (model "${KIPRJMOD}/lib/3d-models/0603-fuse"
       (offset (xyz -2.9 0.65 -0.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${ANT3DMDL}/0603-fuse-1.6x0.8mm.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-fuse-1.6x0.8mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0603-Fuse-Littelfuse-0467" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0603-Fuse-Littelfuse-0467" (layer "F.Cu")
     (tedit 618B9E9E) (tstamp d87c7fc3-19f2-4569-bb50-cc3ac50547c9)
     (at 163.05 100.2 90)
     (property "MPN" "04671.25NR")
@@ -10842,19 +10842,19 @@
       (net 158 "/Interface/3V3_FFC_B") (pintype "passive") (tstamp 40109ae0-cceb-4f17-bd90-a6bca250c44f))
     (pad "2" smd rect locked (at 0.891 0 90) (size 0.762 1.09) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "+3V3") (pintype "passive") (tstamp fa25f57b-0cda-44e6-adfa-1b6dba55314a))
-    (model "${ANT3DMDL}/0603-fuse"
+    (model "${KIPRJMOD}/lib/3d-models/0603-fuse"
       (offset (xyz -2.9 0.65 -0.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${ANT3DMDL}/0603-fuse-1.6x0.8mm.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-fuse-1.6x0.8mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp da1e5371-c5ac-4644-8e24-c6d1a9d290da)
     (at 176.315 91.9)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -10890,14 +10890,14 @@
       (net 54 "CAM2_SDA") (pintype "passive") (tstamp 636a5d41-072f-48b5-9758-cfac94807aff))
     (pad "2" smd roundrect locked (at 0.485 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "+3V3") (pintype "passive") (tstamp 79462146-b461-4921-8a11-a6500a379fd7))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp df1c39aa-8d06-4713-98ba-5307b8151ece)
     (at 170.1 98.8 -90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -10933,14 +10933,14 @@
       (net 41 "CAM0_SCL") (pintype "passive") (tstamp 6c6fd5ac-ae9f-41e9-8d9a-0027760f790a))
     (pad "2" smd roundrect locked (at 0.485 0 270) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "+3V3") (pintype "passive") (tstamp 6dac37a0-fead-4096-8e29-10472a975afc))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp e022fd66-4fbf-4b5e-b14d-340ddc96a8c2)
     (at 127.3 82.315 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -10976,14 +10976,14 @@
       (net 163 "VSYNC_CAM0_3V3") (pintype "passive") (tstamp a46ccc43-e58d-49a5-821a-bf2e75b6e2ab))
     (pad "2" smd roundrect locked (at 0.485 0 90) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 136 "/Auxiliary/CAM_SYNC_3V3") (pintype "passive") (tstamp 009fa6d5-9a6c-4e55-b012-afbee51fdcc9))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp e31735f6-2aff-480b-965f-1d21e4fcf126)
     (at 129.3 82.315 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -11019,14 +11019,14 @@
       (net 165 "VSYNC_CAM2_3V3") (pintype "passive") (tstamp d79e48da-a0a9-4c34-a03e-e3966d54063e))
     (pad "2" smd roundrect locked (at 0.485 0 90) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 136 "/Auxiliary/CAM_SYNC_3V3") (pintype "passive") (tstamp 608c5fc9-58dd-44ea-bc61-eab2637f3aed))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp e6389cea-c912-4813-b718-45275d8d76e0)
     (at 155.2 95.6 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -11062,14 +11062,14 @@
       (net 140 "/Auxiliary/SCL_3V3") (pintype "passive") (tstamp c59d894c-c902-40e7-9b28-3a00165ae8a8))
     (pad "2" smd roundrect locked (at 0.485 0 90) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "+3V3") (pintype "passive") (tstamp f38d957d-4f59-4de8-95d9-525a81e430fd))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:Testpoint_smd_0_75mm" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:Testpoint_smd_0_75mm" (layer "F.Cu")
     (tedit 5E4A9375) (tstamp e7c0ef9e-92eb-47b1-af9e-94670477a4e9)
     (at 118.78 68.8908)
     (property "Sheetfile" "interface.kicad_sch")
@@ -11088,7 +11088,7 @@
       (net 2 "+3V3") (pintype "passive") (tstamp 2af9e798-f883-4786-98ef-e182c32b1d10))
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp ea3199af-21a4-4341-9faf-befae6a5ab2d)
     (at 161.2 89.55 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -11124,14 +11124,14 @@
       (net 64 "/Auxiliary/AUX_I2C_SDA") (pintype "passive") (tstamp 99138187-e812-4f5b-8928-5ef038e6b059))
     (pad "2" smd roundrect locked (at 0.485 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "+3V3") (pintype "passive") (tstamp 648e61d7-66a2-4c87-b1d2-8e586d979282))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp f2eea4a7-3e2c-4155-9757-b8f14d656466)
     (at 172 93.8 -90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -11167,14 +11167,14 @@
       (net 149 "Net-(R24-Pad1)") (pintype "passive") (tstamp 752a2bcd-7417-4b13-9ea9-87f17af38514))
     (pad "2" smd roundrect locked (at 0.485 0 270) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 40 "CAM1_SDA") (pintype "passive") (tstamp 931e9eb3-fd13-4e2b-ad45-7402d8903287))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:Testpoint_smd_0_75mm" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:Testpoint_smd_0_75mm" (layer "F.Cu")
     (tedit 5E4A9375) (tstamp f3dac5ab-5308-43d1-a9f4-caaa1430d4bd)
     (at 162.25 95.25)
     (property "Sheetfile" "auxiliary.kicad_sch")
@@ -11193,7 +11193,7 @@
       (net 42 "CAM0_SDA") (pintype "passive") (tstamp 474d6955-95a3-47a1-a247-c042f26b104c))
   )
 
-  (footprint "antmicro-footprints:Testpoint_smd_0_75mm" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:Testpoint_smd_0_75mm" (layer "F.Cu")
     (tedit 5E4A9375) (tstamp f49bcb3f-44f3-48f1-9f38-2a535011505d)
     (at 149 97.8508)
     (property "Sheetfile" "interface.kicad_sch")
@@ -11212,7 +11212,7 @@
       (net 56 "+1V8") (pintype "passive") (tstamp e46ed0c1-fab8-4d66-9a44-cc8b5dd5e25b))
   )
 
-  (footprint "antmicro-footprints:0603-Fuse-Littelfuse-0467" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0603-Fuse-Littelfuse-0467" (layer "F.Cu")
     (tedit 618B9E9E) (tstamp f76ea163-2059-4b57-a3e4-9ec073c7ce1f)
     (at 123.03 77.59 90)
     (property "MPN" "04671.25NR")
@@ -11243,19 +11243,19 @@
       (net 177 "/Auxiliary/5V_LL") (pintype "passive") (tstamp 95fbcc8d-9735-413b-9be8-31697337ab5f))
     (pad "2" smd rect locked (at 0.891 0 90) (size 0.762 1.09) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 3 "+5V") (pintype "passive") (tstamp 377b3d19-e89e-4b36-9911-98a075907adf))
-    (model "${ANT3DMDL}/0603-fuse"
+    (model "${KIPRJMOD}/lib/3d-models/0603-fuse"
       (offset (xyz -2.9 0.65 -0.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${ANT3DMDL}/0603-fuse-1.6x0.8mm.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-fuse-1.6x0.8mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:mounting-hole-3.5mm-NPTH" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:mounting-hole-3.5mm-NPTH" (layer "F.Cu")
     (tedit 60AE3806) (tstamp f7916304-9b67-4039-b554-6ff7e2673fa8)
     (at 150 72.76 180)
     (attr through_hole board_only)
@@ -11270,7 +11270,7 @@
     (pad "" np_thru_hole circle locked (at 0 0 180) (size 3.5 3.5) (drill 3.5) (layers *.Cu *.Mask) (tstamp 62829a0c-34ab-4883-8dd4-f84f2836feb6))
   )
 
-  (footprint "antmicro-footprints:SOT-23-3" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:SOT-23-3" (layer "F.Cu")
     (tedit 5D5D4314) (tstamp f8d4f18f-8e25-4add-85ca-47f1d2dbdc9a)
     (at 124.95 86.4)
     (property "MPN" "BSS138AKAR")
@@ -11317,14 +11317,14 @@
       (net 1 "GND") (pinfunction "S") (pintype "bidirectional") (solder_mask_margin 0.07) (tstamp 05b3e6d6-f9d7-408b-95aa-64e81a7afe6d))
     (pad "3" smd rect locked (at 1.05 0) (size 1.3 0.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 136 "/Auxiliary/CAM_SYNC_3V3") (pinfunction "D") (pintype "bidirectional") (solder_mask_margin 0.07) (tstamp 3d91121a-4663-4538-b4c3-6cad05945bf2))
-    (model "${ANT3DMDL}/sot23-3.step"
+    (model "${KIPRJMOD}/lib/3d-models/sot23-3.step"
       (offset (xyz 0 0 0.35))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 180 -90))
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp f93bab38-2acc-4c4f-8e85-c819bccadb8a)
     (at 124.6 90.6)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -11360,14 +11360,14 @@
       (net 135 "/Auxiliary/CAM_SYNC") (pintype "passive") (tstamp 0a0f2acc-6773-44ab-b7c6-71b64f34cae7))
     (pad "2" smd roundrect locked (at 0.485 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 175 "/Auxiliary/EXT_CAM_SYNC") (pintype "passive") (tstamp 70a67cbe-9338-4cc6-b188-c6ff22985539))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:Testpoint_smd_0_75mm" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:Testpoint_smd_0_75mm" (layer "F.Cu")
     (tedit 5E4A9375) (tstamp f93fdc96-cd96-425d-8a43-f938ba5ec214)
     (at 170.5 106.75)
     (property "Sheetfile" "interface.kicad_sch")
@@ -11386,7 +11386,7 @@
       (net 7 "AVDD_CAM_2V8") (pintype "passive") (tstamp 0194195e-801d-4ab0-b596-5196fa827c3a))
   )
 
-  (footprint "antmicro-footprints:Testpoint_smd_0_75mm" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:Testpoint_smd_0_75mm" (layer "F.Cu")
     (tedit 5E4A9375) (tstamp fab5d1b8-9117-4c1d-9b5a-a8bab244cde8)
     (at 178.1 91.4)
     (property "Sheetfile" "auxiliary.kicad_sch")
@@ -11405,7 +11405,7 @@
       (net 55 "CAM2_SCL") (pintype "passive") (tstamp 37c878a0-d758-4ada-9766-c92a7b563022))
   )
 
-  (footprint "antmicro-footprints:Testpoint_smd_0_75mm" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:Testpoint_smd_0_75mm" (layer "F.Cu")
     (tedit 5E4A9375) (tstamp fb13f29e-74ca-42ba-b6b5-674ca2571bee)
     (at 126.1 92.4)
     (property "Sheetfile" "auxiliary.kicad_sch")
@@ -11424,7 +11424,7 @@
       (net 136 "/Auxiliary/CAM_SYNC_3V3") (pintype "passive") (tstamp 5f78a73e-0032-490a-b828-8ac8d3613a61))
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp fb7feebb-0578-4188-8b70-861a63d23269)
     (at 174.83 102.59 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -11460,14 +11460,14 @@
       (net 158 "/Interface/3V3_FFC_B") (pintype "passive") (tstamp 2ad98890-dd68-47fa-b493-ed599221133c))
     (pad "2" smd roundrect locked (at 0.485 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 59 "Net-(D1-Pad1)") (pintype "passive") (tstamp c5ac5a62-afec-45f0-b927-395a807ee83b))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:QSOP-16_3.9x4.9mm_P0.635mm" (layer "B.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:QSOP-16_3.9x4.9mm_P0.635mm" (layer "B.Cu")
     (tedit 5A02F25C) (tstamp 2082b266-b7ee-4d5f-a4fc-0842be8d390f)
     (at 175.95 90.271 -90)
     (descr "16-Lead Plastic Shrink Small Outline Narrow Body (QR)-.150\" Body [QSOP] (see Microchip Packaging Specification 00000049BS.pdf)")
@@ -11532,14 +11532,14 @@
       (net 58 "Net-(C11-Pad1)") (pinfunction "~{3.3}/5") (pintype "passive") (tstamp bceb557f-8737-4115-aa20-24258286f939))
     (pad "16" smd rect (at 2.6543 2.2225 270) (size 1.6 0.41) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 58 "Net-(C11-Pad1)") (pinfunction "CLK") (pintype "passive") (tstamp a47af057-d478-46e2-a641-03c3760aa850))
-    (model "${ANT3DMDL}/QSOP-16_3.9x4.9mm_P0.635mm.step"
+    (model "${KIPRJMOD}/lib/3d-models/QSOP-16_3.9x4.9mm_P0.635mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:DO-214AC" (layer "B.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:DO-214AC" (layer "B.Cu")
     (tedit 626A9B82) (tstamp 28fceb1b-2735-4fbb-bcc7-566dbeea611c)
     (at 172.95 84.85)
     (property "MPN" "B340A-13-F")
@@ -11592,14 +11592,14 @@
       (net 65 "Net-(D8-PadA)") (pintype "passive") (tstamp 27ed5e90-1043-41b1-9e54-2f0e6c8327cf))
     (pad "K" smd rect locked (at -2 0) (size 2.5 1.7) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 162 "/Auxiliary/5V_C") (pintype "passive") (tstamp dbbb993c-89db-4564-a163-b8d48ace17cc))
-    (model "${ANT3DMDL}/DO-214AC.step"
+    (model "${KIPRJMOD}/lib/3d-models/DO-214AC.step"
       (offset (xyz 0 0 1.4))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
     )
   )
 
-  (footprint "antmicro-footprints:0603-cap" (layer "B.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0603-cap" (layer "B.Cu")
     (tedit 5D5E94D2) (tstamp 2d003ccc-9540-494a-a6f3-7c83da092fd3)
     (at 176.2 95.5 -90)
     (property "MPN" "0603YC104KAZ2A")
@@ -11635,14 +11635,14 @@
       (net 58 "Net-(C11-Pad1)") (pintype "passive") (tstamp d57077e2-8dac-43ac-8ea4-bec8eb6c3d26))
     (pad "2" smd rect locked (at 0.7 0 270) (size 0.6 0.8) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 1 "GND") (pintype "passive") (tstamp f8ce5861-8bc4-4f1d-a099-61e331e4b604))
-    (model "${ANT3DMDL}/0603-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-cap.step"
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0603-res" (layer "B.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0603-res" (layer "B.Cu")
     (tedit 5D5D3E92) (tstamp 352f4e08-7370-4d01-b58f-992a7ba302f7)
     (at 180.2 89)
     (property "MPN" "MCMR06X2201FTL")
@@ -11678,14 +11678,14 @@
       (net 66 "Net-(IC1-Pad1)") (pintype "passive") (tstamp 38868912-28c7-42c6-b16c-0d6912ec6d43))
     (pad "2" smd rect locked (at 0.7 0) (size 0.6 0.8) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 2 "+3V3") (pintype "passive") (tstamp ae1f1bdd-df31-40ae-be1e-1d51d86c6e41))
-    (model "${ANT3DMDL}/0603-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-res.step"
       (offset (xyz -0.8 -0.4 0.45))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0805-res" (layer "B.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0805-res" (layer "B.Cu")
     (tedit 5D5D3F54) (tstamp 3acdd24a-f8b2-46bc-813a-1940c01a62ab)
     (at 165.5 94 90)
     (property "MPN" "CRCW08050000Z0EA")
@@ -11717,14 +11717,14 @@
       (net 168 "/Interface/3V3_CONN") (pintype "passive") (tstamp d3ff13cc-586d-4cbd-bc09-cb7a0ea7e9d7))
     (pad "2" smd rect locked (at 1.05 0 90) (size 1.2 1.2) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 2 "+3V3") (pintype "passive") (tstamp d99b34fb-e8a7-47c0-8983-f665bef3d4c8))
-    (model "${ANT3DMDL}/0805-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0805-res.step"
       (offset (xyz 0 0 0.73))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0603-cap" (layer "B.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0603-cap" (layer "B.Cu")
     (tedit 5D5E94D2) (tstamp 4fc9fe7e-91ec-4d76-a4ac-c45c15852e66)
     (at 179.2 85.271 -90)
     (property "MPN" "0603B224K100CT")
@@ -11760,14 +11760,14 @@
       (net 1 "GND") (pintype "passive") (tstamp 88640f99-795f-4a9f-b735-c01476d37ed8))
     (pad "2" smd rect locked (at 0.7 0 270) (size 0.6 0.8) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 57 "Net-(C10-Pad2)") (pintype "passive") (tstamp 76348253-b3d7-4e1f-a403-76e9965044a3))
-    (model "${ANT3DMDL}/0603-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-cap.step"
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:1206-cap" (layer "B.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:1206-cap" (layer "B.Cu")
     (tedit 5D5E9427) (tstamp 6f1cf272-8917-4c53-858c-6ce8fcc129be)
     (at 170.2 91.1 -90)
     (descr "http://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C230KFKT_5-24-06.pdf")
@@ -11808,14 +11808,14 @@
       (net 162 "/Auxiliary/5V_C") (pintype "passive") (tstamp 7b12e3bf-120a-4596-8d8d-fad3dd5594fa))
     (pad "2" smd rect locked (at 1.8 0 270) (size 1.5 1.8) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 1 "GND") (pintype "passive") (tstamp b39c17e5-b1fb-4cdf-801e-116dca18397a))
-    (model "${ANT3DMDL}/1206-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/1206-cap.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0805-res" (layer "B.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0805-res" (layer "B.Cu")
     (tedit 5D5D3F54) (tstamp 79cd1a42-7dbe-4f5f-ab0d-4a661d9fb10d)
     (at 163 94 90)
     (property "MPN" "CRCW08050000Z0EA")
@@ -11847,14 +11847,14 @@
       (net 167 "/Interface/1V8_CONN") (pintype "passive") (tstamp b26d3a62-9408-4562-9a23-71f7fe84113d))
     (pad "2" smd rect locked (at 1.05 0 90) (size 1.2 1.2) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 56 "+1V8") (pintype "passive") (tstamp bc60953e-f1a6-419b-b6f9-dd2572f4fd4d))
-    (model "${ANT3DMDL}/0805-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0805-res.step"
       (offset (xyz 0 0 0.73))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:SAMTEC_QTH-060-03-X-D-A" (layer "B.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:SAMTEC_QTH-060-03-X-D-A" (layer "B.Cu")
     (tedit 62D548CC) (tstamp 8740c8ca-a34f-4809-b087-5c1ee64ed97a)
     (at 150 100.89)
     (property "MPN" "QTH-060-03-L-D-A")
@@ -12159,14 +12159,14 @@
       (net 1 "GND") (pinfunction "G7") (pintype "passive") (tstamp 05a4b1d5-d236-48ae-bad9-2e0f93f94661))
     (pad "G8" smd rect (at 18.452 0) (size 2.54 0.64) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 1 "GND") (pinfunction "G8") (pintype "passive") (tstamp 673397db-1f9c-4cc0-bf4e-d9843638f42c))
-    (model "${ANT3DMDL}/QTH-060-03-X-D-A.step"
+    (model "${KIPRJMOD}/lib/3d-models/QTH-060-03-X-D-A.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:1206-cap" (layer "B.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:1206-cap" (layer "B.Cu")
     (tedit 5D5E9427) (tstamp 90668751-bf73-4cb6-870f-4f5098c97f8d)
     (at 177.45 78.75 -90)
     (descr "http://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C230KFKT_5-24-06.pdf")
@@ -12207,14 +12207,14 @@
       (net 2 "+3V3") (pintype "passive") (tstamp ddca6089-50b4-4384-8882-9313ba0bddcf))
     (pad "2" smd rect locked (at 1.8 0 270) (size 1.5 1.8) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 1 "GND") (pintype "passive") (tstamp 6ab034f4-e589-44c2-b7e9-1e2d77b0d443))
-    (model "${ANT3DMDL}/1206-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/1206-cap.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:IHLP2525CZER" (layer "B.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:IHLP2525CZER" (layer "B.Cu")
     (tedit 615FFE03) (tstamp aeb3390b-f832-4f0a-9774-518881b58215)
     (at 171.45 78.85 -90)
     (property "MPN" "IHLP2525CZER8R2M01")
@@ -12256,14 +12256,14 @@
       (net 2 "+3V3") (pinfunction "P") (pintype "passive") (tstamp bd1a77b7-6681-4d20-940e-a42b58c41ad9))
     (pad "2" smd rect (at 2.921 0 180) (size 3.429 2.413) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 65 "Net-(D8-PadA)") (pinfunction "P") (pintype "passive") (tstamp a6d2dbdd-c5d6-4b74-9570-559bb52c74ed))
-    (model "${ANT3DMDL}/IHLP2525CZ.STEP"
+    (model "${KIPRJMOD}/lib/3d-models/IHLP2525CZ.STEP"
       (offset (xyz -1.5 5.3 -2.3))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0603-res" (layer "B.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0603-res" (layer "B.Cu")
     (tedit 5D5D3E92) (tstamp d8ccead1-b1b8-4014-8a2d-7a1fe3da59c1)
     (at 180.2 87.4)
     (property "MPN" "MCMR06X2201FTL")
@@ -12299,14 +12299,14 @@
       (net 67 "Net-(IC1-Pad2)") (pintype "passive") (tstamp aab57848-cfa6-4be5-845d-bac6994f0fc6))
     (pad "2" smd rect locked (at 0.7 0) (size 0.6 0.8) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 2 "+3V3") (pintype "passive") (tstamp edaf43e8-3657-4965-8087-e0d0f256dbca))
-    (model "${ANT3DMDL}/0603-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-res.step"
       (offset (xyz -0.8 -0.4 0.45))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0603-cap" (layer "B.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0603-cap" (layer "B.Cu")
     (tedit 5D5E94D2) (tstamp ddc2ebaa-6f83-4ac7-b0b9-0304f0f64188)
     (at 177.7 85.271 90)
     (property "MPN" "0603YC104KAZ2A")
@@ -12342,14 +12342,14 @@
       (net 134 "Net-(C9-Pad1)") (pintype "passive") (tstamp 199986ab-52e1-4b50-a090-ac9332879ecc))
     (pad "2" smd rect locked (at 0.7 0 90) (size 0.6 0.8) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 1 "GND") (pintype "passive") (tstamp 2267be55-8f63-4fa9-a782-f8f65a0a29d3))
-    (model "${ANT3DMDL}/0603-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-cap.step"
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0603-res" (layer "B.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0603-res" (layer "B.Cu")
     (tedit 5D5D3E92) (tstamp ea2ab5c8-a9a9-40f5-8e42-9f85a92c9194)
     (at 174 94.771 180)
     (property "MPN" "MCSR06W2R00FTL")
@@ -12385,14 +12385,14 @@
       (net 58 "Net-(C11-Pad1)") (pintype "passive") (tstamp cd0e9f11-f028-4c82-ba46-3e06963f6b8f))
     (pad "2" smd rect locked (at 0.7 0 180) (size 0.6 0.8) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 162 "/Auxiliary/5V_C") (pintype "passive") (tstamp dd1f7968-0607-4fda-8424-71180e6dacd7))
-    (model "${ANT3DMDL}/0603-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-res.step"
       (offset (xyz -0.8 -0.4 0.45))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0805-res" (layer "B.Cu")
+  (footprint "antmicro-jetson-agx-csi-adapter-footprints:0805-res" (layer "B.Cu")
     (tedit 5D5D3F54) (tstamp f89d4ada-d723-4f77-85cc-dd78f20aac4e)
     (at 167.6 84.45 90)
     (property "MPN" "CRCW08050000Z0EA")
@@ -12424,7 +12424,7 @@
       (net 162 "/Auxiliary/5V_C") (pintype "passive") (tstamp 3076da30-5f6e-44af-b3bd-0be2b9fa6b4e))
     (pad "2" smd rect locked (at 1.05 0 90) (size 1.2 1.2) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 3 "+5V") (pintype "passive") (tstamp f9f84688-6f54-4229-bdcb-75812e91a634))
-    (model "${ANT3DMDL}/0805-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0805-res.step"
       (offset (xyz 0 0 0.73))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
