@@ -1,13 +1,13 @@
 # Antmicro Jetson AGX CSI Adapter
 Copyright (c) 2022 [Antmicro](https://www.antmicro.com)
 
-![Adapter Visualization](img/adapter_vis.png)
+![Adapter Visualization](img/xavier-agx-csi-adapter-vis.png)
 
 
 ## Overview
-This repository contains hardware design files for CSI camera adapter designed to be used with Nvidia Jetson AGX platform devkits (Orin, Xavier). It breaks-out camera module interface connector into two Antmicro camera interfaces. To power the cameras 5V power
-converter was added. The board also contains an I2C Mux and circuitry for distributing VSYNC signal to the cameras. QWIIC and Liquid lens connectors are added for additional I2C connectivity together with SYNC connector for camera synchonization.
-
+This repository contains hardware design files for a CSI camera adapter designed to be used with Nvidia Jetson AGX platform devkits (Orin, Xavier).
+It breaks-out the camera module interface connector into two 50-pin flat cable connectors which are compatible with a variety of video accessories developed by Antmicro.
+ 
 ## Repository structure
 The main repository directory contains KiCad PCB project files, a LICENSE and a README.
 The remaining files are stored in the following directories:
@@ -16,11 +16,14 @@ The remaining files are stored in the following directories:
 * `doc` - contains generated schematics and other documentation
 * `lib` - contains KiCad component library
 
-## Key fetures
-* Nvidia Camera Module Connector (Jetson Orin, Jetson Xavier devkits)
+## Key features
+* Nvidia Camera Module Connector compatible with Jetson AGX Orin and Jetson Xavier AGX devkits
 * Two Antmicro CSI Connectors (2x 4-lane MIPI CSI-2 or 4x 4-lane MIPI CSI-2)
-* I2C multiplexer for connecting multiple cameras
-* DC-DC converter to power the cameras
+* I2C multiplexer for connecting multiple cameras to separate I2C interfaces 
+* On-board DC-DC converter to power the cameras
+* Simple frame synchronization circuitry
+* QWIIC connector for external sensors
+* Liquid lens connector for I2C-controlled liquid lenses
 
 The camera connectors are electrically compatible with several video accessories created by Antmicro such as:
  
