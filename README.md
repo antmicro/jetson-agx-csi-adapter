@@ -1,15 +1,17 @@
 # Antmicro Jetson AGX CSI Adapter
 
-Copyright (c) 2022 [Antmicro](https://www.antmicro.com)
+Copyright (c) 2022-2023 [Antmicro](https://www.antmicro.com)
+
+[![View on opensource.antmicro.com](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Source%20Portal-332d37?style=flat-square)](https://opensource.antmicro.com/projects/jetson-agx-csi-adapter)
 
 ![Adapter Photo](img/xavier-agx-csi-adapter.png)
 
 ## Overview
-This repository contains hardware design files for a CSI camera adapter designed to be used with Nvidia Jetson AGX platform devkits (Orin, Xavier).
+This project contains hardware design files for a CSI camera adapter designed to be used with Nvidia Jetson AGX platform devkits (Orin, Xavier).
 It separates the camera module interface connector into two 50-pin flat cable connectors, which are compatible with a variety of video accessories developed by Antmicro.
  
-## Repository structure
-The main repository directory contains KiCad PCB project files, a LICENSE, and a README.
+## Project structure
+The main directory contains KiCad PCB project files, a LICENSE, and a README.
 The remaining files are stored in the following directories:
 
 * `img` - contains graphics for this README
@@ -33,4 +35,4 @@ The camera connectors are electrically compatible with several video accessories
 * [HDMI-MIPI bridge](https://github.com/antmicro/hdmi-mipi-bridge)
 
 ## License
-[Apache-2.0](LICENSE)
+This project is published under the [Apache-2.0](LICENSE) license.
