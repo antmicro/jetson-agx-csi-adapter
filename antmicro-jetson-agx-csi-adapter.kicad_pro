@@ -56,7 +56,13 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "lib_footprint_issues|173280000|107440000|9b866ffb-bc0f-484d-a18e-1e68b3f4fc82|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_issues|178730000|107440000|532e2653-eecf-4807-bb4a-449bacb0e2b3|00000000-0000-0000-0000-000000000000",
+        "silk_edge_clearance|134150000|108980000|af041e51-ca6d-475f-a18e-257b83913d8f|1466e937-2c64-46d2-8513-7721078d04c8",
+        "silk_edge_clearance|165850000|108980000|af041e51-ca6d-475f-a18e-257b83913d8f|77f4ad33-e7d4-44a9-b4a9-76e1010f2675",
+        "silk_edge_clearance|165850000|108980000|af041e51-ca6d-475f-a18e-257b83913d8f|f735355a-0159-43cd-bf57-f3eb75ad749d"
+      ],
       "meta": {
         "version": 2
       },
