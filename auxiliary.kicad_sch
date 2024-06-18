@@ -6634,7 +6634,7 @@
   (symbol (lib_id "antmicroWire2BoardConnectors:JST_SH_1x6_SM06B-SRSS-TB-LF-SN") (at 88.9 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 28eee320-0e9c-49f6-b5bc-dabe9083008c)
-    (property "Reference" "J7" (at 95.25 186.69 0)
+    (property "Reference" "J5" (at 95.25 186.69 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Value" "JST_SH_1x6_SM06B-SRSS-TB-LF-SN" (at 115.57 187.96 0)
@@ -6668,7 +6668,7 @@
     (instances
       (project "antmicro-jetson-agx-csi-adapter"
         (path "/670e9d2a-7922-4ce5-91a1-7b9e7947bcbf/979ab030-ea70-442d-80da-03811f49b178"
-          (reference "J7") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
