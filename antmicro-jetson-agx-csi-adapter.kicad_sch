@@ -6,7 +6,7 @@
 
   (title_block
     (title "Antmicro Jetson AGX CSI Adapter")
-    (date "2022-07-20")
+    (date "2024-06-24")
     (rev "1.0.1")
   )
 
