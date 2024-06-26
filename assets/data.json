@@ -1,5 +1,5 @@
 {
-    "id": "antmicro-jetson-agx-csi-adapter",
+    "id": "jetson-agx-csi-adapter",
     "componentIds": [
         "kyocera-avx-0603yd105kat2a",
         "murata-grm155r61h104ke14d",
