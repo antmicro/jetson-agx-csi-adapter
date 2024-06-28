@@ -1,6 +1,6 @@
 # Antmicro Jetson AGX CSI Adapter
 
-Copyright (c) 2022-2023 [Antmicro](https://www.antmicro.com)
+Copyright (c) 2022-2024 [Antmicro](https://www.antmicro.com)
 
 [![View on opensource.antmicro.com](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Source%20Portal-332d37?style=flat-square)](https://opensource.antmicro.com/projects/jetson-agx-csi-adapter)
 
@@ -16,7 +16,7 @@ The remaining files are stored in the following directories:
 
 * `img` - contains graphics for this README
 * `doc` - contains generated schematics and other documentation
-* `lib` - contains KiCad component library
+* `assets` - contains visual assets for showcasing this design on [Open Hardware Portal](https://openhardware.antmicro.com)
 
 ## Key features
 * Nvidia Camera Module Connector compatible with Jetson AGX Orin and Jetson Xavier AGX devkits,
